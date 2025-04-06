@@ -1,0 +1,26 @@
+[
+  {
+    "name": "China 25% Increase",
+    "country": "China",
+    "increase": 25,
+    "components": ["processors", "displays", "memory"]
+  },
+  {
+    "name": "China 10% Increase",
+    "country": "China",
+    "increase": 10,
+    "components": ["processors", "displays", "memory"]
+  },
+  {
+    "name": "Taiwan 15% Increase",
+    "country": "Taiwan",
+    "increase": 15,
+    "components": ["semiconductors", "processors"]
+  },
+  {
+    "name": "US 5% Decrease",
+    "country": "United States",
+    "increase": -5,
+    "components": []
+  }
+]

@@ -362,10 +362,10 @@ Examples:
             # Print summary results
             print(f"Tariff Impact Prediction Results:")
             print(f"- {args.country} tariff increase of {args.increase}%")
-            #print(f"- Affected components: {results['affected_components_count']}")
-            #print(f"- Affected products: {results['affected_products_count']}")
-            #print(f"- Average price increase: {results['price_impacts'].get('average_product_price_increase', 0)}%")
-            #print(f"- Resilience score change: {results['resilience_impact']['change']}")
+            print(f"- Affected components: {results['affected_components_count']}")
+            print(f"- Affected products: {results['affected_products_count']}")
+            print(f"- Average price increase: {results['price_impacts'].get('average_product_price_increase', 0)}%")
+            print(f"- Resilience score change: {results['resilience_impact']['change']}")
             
             if args.output:
                 print(f"Full results saved to {args.output}")
