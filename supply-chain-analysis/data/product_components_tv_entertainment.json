@@ -1,0 +1,227 @@
+{
+  "product_components_tv_entertainment": [
+    {
+      "product_id": "TV001",
+      "product_name": "Samsung QN90B Neo QLED",
+      "manufacturer": "EC002",
+      "category": "Premium TV",
+      "retail_price_usd": 1999,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC401", "name": "Neural Quantum Processor", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP401", "name": "Mini-LED Panel", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "LED401", "name": "Mini-LED Backlight", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "QDRV401", "name": "Quantum Dot Layer", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM401", "name": "Flash Storage", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM401", "name": "DDR4 Memory", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "WIFI401", "name": "WiFi/Bluetooth Module", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK401", "name": "Speaker System", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PWR401", "name": "Power Supply", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "HDMI401", "name": "HDMI Controllers", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS401", "name": "Metal Chassis", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RMT401", "name": "Remote Control", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "South Korea", "facility": "MF037", "company": "EC002", "percentage_of_production": 30},
+        {"country": "Mexico", "facility": "MF038", "company": "EC002", "percentage_of_production": 40},
+        {"country": "Vietnam", "facility": "MF039", "company": "EC002", "percentage_of_production": 30}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 40},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "South Korea", "percentage_of_sales": 10},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 2.0,
+      "countries_in_supply_chain": 3,
+      "critical_components_count": 9,
+      "alternative_manufacturing_options": "Good"
+    },
+    {
+      "product_id": "TV002",
+      "product_name": "LG C2 OLED",
+      "manufacturer": "EC009",
+      "category": "Premium OLED TV",
+      "retail_price_usd": 1799,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC402", "name": "Alpha 9 Gen 5 Processor", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP402", "name": "OLED Panel", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM402", "name": "Flash Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM402", "name": "DDR4 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "WIFI402", "name": "WiFi/Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK402", "name": "Dolby Atmos Speakers", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PWR402", "name": "Power Supply", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "HDMI402", "name": "HDMI 2.1 Controllers", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS402", "name": "Chassis", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RMT402", "name": "Magic Remote", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT402", "name": "USB Controllers", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "COOL402", "name": "Cooling System", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "South Korea", "facility": "MF040", "company": "EC009", "percentage_of_production": 45},
+        {"country": "Mexico", "facility": "MF041", "company": "EC009", "percentage_of_production": 35},
+        {"country": "Poland", "facility": "MF042", "company": "EC009", "percentage_of_production": 20}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 40},
+        {"region": "Europe", "percentage_of_sales": 35},
+        {"region": "South Korea", "percentage_of_sales": 10},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 1.5,
+      "countries_in_supply_chain": 3,
+      "critical_components_count": 8,
+      "alternative_manufacturing_options": "Good"
+    },
+    {
+      "product_id": "TV003",
+      "product_name": "Sony A95K QD-OLED",
+      "manufacturer": "EC008",
+      "category": "Premium OLED TV",
+      "retail_price_usd": 2999,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC403", "name": "Cognitive Processor XR", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP403", "name": "QD-OLED Panel", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM403", "name": "Flash Storage", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM403", "name": "DDR4 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI403", "name": "WiFi/Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK403", "name": "Acoustic Surface Audio+", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "PWR403", "name": "Power Supply", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "HDMI403", "name": "HDMI 2.1 Controllers", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS403", "name": "Chassis", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RMT403", "name": "Remote Control", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "PORT403", "name": "USB Controllers", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "COOL403", "name": "Cooling System", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "Malaysia", "facility": "MF043", "company": "EC008", "percentage_of_production": 70},
+        {"country": "Mexico", "facility": "MF044", "company": "EC008", "percentage_of_production": 30}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 35},
+        {"region": "Europe", "percentage_of_sales": 35},
+        {"region": "Japan", "percentage_of_sales": 15},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 7.0,
+      "countries_in_supply_chain": 5,
+      "critical_components_count": 9,
+      "alternative_manufacturing_options": "Moderate"
+    },
+    {
+      "product_id": "TV004",
+      "product_name": "TCL 6-Series Mini-LED",
+      "manufacturer": "EC034",
+      "category": "Mid-Range LED TV",
+      "retail_price_usd": 999,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC404", "name": "AiPQ Engine", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP404", "name": "Mini-LED Panel", "supplier": "EC034", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "LED404", "name": "Mini-LED Array", "supplier": "EC034", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "QDRV404", "name": "Quantum Dot Layer", "supplier": "EC034", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM404", "name": "Flash Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM404", "name": "DDR4 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI404", "name": "WiFi Module", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SPK404", "name": "Speaker System", "supplier": "EC034", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PWR404", "name": "Power Supply", "supplier": "EC034", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "HDMI404", "name": "HDMI Controllers", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS404", "name": "Chassis", "supplier": "EC034", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RMT404", "name": "Remote Control", "supplier": "EC034", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF045", "company": "EC034", "percentage_of_production": 80},
+        {"country": "Mexico", "facility": "MF046", "company": "EC034", "percentage_of_production": 20}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 60},
+        {"region": "Europe", "percentage_of_sales": 15},
+        {"region": "China", "percentage_of_sales": 15},
+        {"region": "Asia Pacific", "percentage_of_sales": 8},
+        {"region": "Rest of World", "percentage_of_sales": 2}
+      ],
+      "tariff_vulnerability_score": 5.0,
+      "countries_in_supply_chain": 4,
+      "critical_components_count": 9,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "TV005",
+      "product_name": "Hisense U8H Mini-LED",
+      "manufacturer": "EC053",
+      "category": "Mid-Range LED TV",
+      "retail_price_usd": 899,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC405", "name": "Hi-View Engine", "supplier": "EC053", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP405", "name": "Mini-LED Panel", "supplier": "EC053", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "LED405", "name": "Mini-LED Array", "supplier": "EC053", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "QDRV405", "name": "Quantum Dot Film", "supplier": "EC053", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM405", "name": "Flash Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM405", "name": "DDR4 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI405", "name": "WiFi Module", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SPK405", "name": "Speaker System", "supplier": "EC053", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PWR405", "name": "Power Supply", "supplier": "EC053", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "HDMI405", "name": "HDMI Controllers", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS405", "name": "Chassis", "supplier": "EC053", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RMT405", "name": "Remote Control", "supplier": "EC053", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF047", "company": "EC053", "percentage_of_production": 90},
+        {"country": "Mexico", "facility": "MF048", "company": "EC053", "percentage_of_production": 10}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 50},
+        {"region": "Europe", "percentage_of_sales": 15},
+        {"region": "China", "percentage_of_sales": 25},
+        {"region": "Asia Pacific", "percentage_of_sales": 8},
+        {"region": "Rest of World", "percentage_of_sales": 2}
+      ],
+      "tariff_vulnerability_score": 4.0,
+      "countries_in_supply_chain": 4,
+      "critical_components_count": 9,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "TV006",
+      "product_name": "LG CineBeam HU915QE",
+      "manufacturer": "EC009",
+      "category": "Premium 4K Projector",
+      "retail_price_usd": 5999,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC406", "name": "Video Processor", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DMD406", "name": "DLP Chip", "supplier": "EC027", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "LASER406", "name": "Triple Laser Light Source", "supplier": "EC046", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "LENS406", "name": "Projection Lens", "supplier": "EC033", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM406", "name": "Flash Storage", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM406", "name": "DDR4 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "WIFI406", "name": "WiFi Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK406", "name": "40W Speaker System", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PWR406", "name": "Power Supply", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "HDMI406", "name": "HDMI Controllers", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS406", "name": "Chassis", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL406", "name": "Cooling System", "supplier": "EC009", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "South Korea", "facility": "MF040", "company": "EC009", "percentage_of_production": 100}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 40},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "South Korea", "percentage_of_sales": 15},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 2.5,
+      "countries_in_supply_chain": 4,
+      "critical_components_count": 10,
+      "alternative_manufacturing_options": "Limited"
+    }
+  ]
+}

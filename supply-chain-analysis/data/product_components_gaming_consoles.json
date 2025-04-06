@@ -1,0 +1,184 @@
+{
+  "product_components_gaming_consoles": [
+    {
+      "product_id": "GC001",
+      "product_name": "Sony PlayStation 5",
+      "manufacturer": "EC008",
+      "category": "Gaming Console",
+      "retail_price_usd": 499,
+      "release_year": 2020,
+      "key_components": [
+        {"component_id": "PROC501", "name": "AMD Zen 2 CPU", "supplier": "EC023", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "GPU501", "name": "AMD RDNA 2 GPU", "supplier": "EC023", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM501", "name": "Custom SSD", "supplier": "EC031", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM501", "name": "GDDR6 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS501", "name": "Console Housing", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "HDMI501", "name": "HDMI Controller", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI501", "name": "WiFi/Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL501", "name": "Cooling System", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "PWR501", "name": "Power Supply", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CON501", "name": "DualSense Controller", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BOARD501", "name": "Main Circuit Board", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "AUDIO501", "name": "Audio Processor", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF049", "company": "EC003", "percentage_of_production": 70},
+        {"country": "Japan", "facility": "MF050", "company": "EC008", "percentage_of_production": 30}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 35},
+        {"region": "Europe", "percentage_of_sales": 35},
+        {"region": "Japan", "percentage_of_sales": 15},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 8.5,
+      "countries_in_supply_chain": 5,
+      "critical_components_count": 11,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "GC002",
+      "product_name": "Microsoft Xbox Series X",
+      "manufacturer": "EC005",
+      "category": "Gaming Console",
+      "retail_price_usd": 499,
+      "release_year": 2020,
+      "key_components": [
+        {"component_id": "PROC502", "name": "AMD Zen 2 CPU", "supplier": "EC023", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "GPU502", "name": "AMD RDNA 2 GPU", "supplier": "EC023", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM502", "name": "Custom NVMe SSD", "supplier": "EC031", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM502", "name": "GDDR6 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS502", "name": "Console Housing", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "HDMI502", "name": "HDMI Controller", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "WIFI502", "name": "WiFi/Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL502", "name": "Vapor Chamber Cooling", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "PWR502", "name": "Power Supply", "supplier": "EC005", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CON502", "name": "Xbox Controller", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BOARD502", "name": "Main Circuit Board", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "AUDIO502", "name": "Audio Processor", "supplier": "EC005", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF051", "company": "EC003", "percentage_of_production": 90},
+        {"country": "Mexico", "facility": "MF052", "company": "EC005", "percentage_of_production": 10}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 45},
+        {"region": "Europe", "percentage_of_sales": 35},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 7.0,
+      "countries_in_supply_chain": 4,
+      "critical_components_count": 10,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "GC003",
+      "product_name": "Nintendo Switch OLED",
+      "manufacturer": "EC030",
+      "category": "Hybrid Gaming Console",
+      "retail_price_usd": 349,
+      "release_year": 2021,
+      "key_components": [
+        {"component_id": "PROC503", "name": "NVIDIA Tegra X1", "supplier": "EC017", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP503", "name": "OLED Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM503", "name": "eMMC Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM503", "name": "LPDDR4 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS503", "name": "Console Housing", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "HDMI503", "name": "HDMI Controller", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "WIFI503", "name": "WiFi/Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL503", "name": "Cooling System", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT503", "name": "Lithium-Ion Battery", "supplier": "EC019", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CON503", "name": "Joy-Con Controllers", "supplier": "EC030", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BOARD503", "name": "Main Circuit Board", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TOUCH503", "name": "Touch Controller", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF053", "company": "EC003", "percentage_of_production": 85},
+        {"country": "Vietnam", "facility": "MF054", "company": "EC003", "percentage_of_production": 15}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 30},
+        {"region": "Europe", "percentage_of_sales": 25},
+        {"region": "Japan", "percentage_of_sales": 30},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 8.0,
+      "countries_in_supply_chain": 5,
+      "critical_components_count": 11,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "GC004",
+      "product_name": "Valve Steam Deck",
+      "manufacturer": "EC054",
+      "category": "Handheld Gaming PC",
+      "retail_price_usd": 399,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC504", "name": "AMD Zen 2 APU", "supplier": "EC023", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "GPU504", "name": "AMD RDNA 2 GPU", "supplier": "EC023", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP504", "name": "LCD Display", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM504", "name": "NVMe SSD", "supplier": "EC031", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM504", "name": "LPDDR5 Memory", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS504", "name": "Console Housing", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI504", "name": "WiFi/Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL504", "name": "Fan Cooling System", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT504", "name": "Lithium-Ion Battery", "supplier": "EC019", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CON504", "name": "Integrated Controllers", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BOARD504", "name": "Main Circuit Board", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TOUCH504", "name": "Touch Panel", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF055", "company": "EC003", "percentage_of_production": 100}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 45},
+        {"region": "Europe", "percentage_of_sales": 45},
+        {"region": "Asia Pacific", "percentage_of_sales": 8},
+        {"region": "Rest of World", "percentage_of_sales": 2}
+      ],
+      "tariff_vulnerability_score": 6.5,
+      "countries_in_supply_chain": 4,
+      "critical_components_count": 11,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "GC005",
+      "product_name": "Meta Quest 2",
+      "manufacturer": "EC004",
+      "category": "VR Headset",
+      "retail_price_usd": 299,
+      "release_year": 2020,
+      "key_components": [
+        {"component_id": "PROC505", "name": "Qualcomm Snapdragon XR2", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP505", "name": "LCD Display Panels", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "LENS505", "name": "Fresnel Lenses", "supplier": "EC004", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM505", "name": "Flash Storage", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM505", "name": "LPDDR4X Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS505", "name": "Headset Housing", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI505", "name": "WiFi/Bluetooth Module", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL505", "name": "Cooling System", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT505", "name": "Lithium-Ion Battery", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CON505", "name": "Touch Controllers", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS505", "name": "Tracking Sensors", "supplier": "EC004", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "AUDIO505", "name": "Spatial Audio System", "supplier": "EC049", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF056", "company": "EC003", "percentage_of_production": 100}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 55},
+        {"region": "Europe", "percentage_of_sales": 35},
+        {"region": "Asia Pacific", "percentage_of_sales": 8},
+        {"region": "Rest of World", "percentage_of_sales": 2}
+      ],
+      "tariff_vulnerability_score": 5.0,
+      "countries_in_supply_chain": 4,
+      "critical_components_count": 11,
+      "alternative_manufacturing_options": "Limited"
+    }
+  ]
+}

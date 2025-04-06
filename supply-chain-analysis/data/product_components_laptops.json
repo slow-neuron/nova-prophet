@@ -1,0 +1,317 @@
+{
+  "product_components_laptops": [
+    {
+      "product_id": "LP001",
+      "product_name": "MacBook Pro 16-inch",
+      "manufacturer": "EC001",
+      "category": "Premium Laptop",
+      "retail_price_usd": 2499,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC101", "name": "Apple M2 Pro/Max Chip", "supplier": "EC007", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP101", "name": "Liquid Retina XDR Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM101", "name": "NAND Flash Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM101", "name": "Unified Memory", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT101", "name": "Lithium-Polymer Battery", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS101", "name": "Aluminum Unibody", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "KBD101", "name": "Magic Keyboard", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TPAD101", "name": "Force Touch Trackpad", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI101", "name": "WiFi 6E Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM101", "name": "1080p FaceTime Camera", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "SPK101", "name": "Six-Speaker System", "supplier": "EC049", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT101", "name": "Thunderbolt/USB 4 Controllers", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "PWR101", "name": "Power Management IC", "supplier": "EC001", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL101", "name": "Thermal System", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS101", "name": "Touch ID Sensor", "supplier": "EC001", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF004", "company": "EC016", "percentage_of_production": 85},
+        {"country": "Vietnam", "facility": "MF007", "company": "EC003", "percentage_of_production": 15}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 40},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "Greater China", "percentage_of_sales": 15},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 7.5,
+      "countries_in_supply_chain": 10,
+      "critical_components_count": 12,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "LP002",
+      "product_name": "Dell XPS 15",
+      "manufacturer": "EC010",
+      "category": "Premium Laptop",
+      "retail_price_usd": 1899,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC102", "name": "Intel Core i9-13900H", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "GPU102", "name": "NVIDIA RTX 4070", "supplier": "EC017", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP102", "name": "4K+ OLED Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM102", "name": "NVMe SSD", "supplier": "EC031", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM102", "name": "DDR5 Memory", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT102", "name": "Lithium-Ion Battery", "supplier": "EC019", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS102", "name": "CNC Aluminum Chassis", "supplier": "EC010", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "KBD102", "name": "Backlit Keyboard", "supplier": "EC010", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TPAD102", "name": "Precision Trackpad", "supplier": "EC039", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI102", "name": "Killer WiFi 6E", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM102", "name": "HD Webcam", "supplier": "EC039", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "SPK102", "name": "Quad-Speaker System", "supplier": "EC010", "country_of_origin": "China", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "PORT102", "name": "Thunderbolt 4 Controllers", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL102", "name": "Dual Fan Cooling System", "supplier": "EC010", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS102", "name": "Fingerprint Reader", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF021", "company": "EC010", "percentage_of_production": 70},
+        {"country": "Malaysia", "facility": "MF022", "company": "EC010", "percentage_of_production": 30}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 45},
+        {"region": "Europe", "percentage_of_sales": 35},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 6.5,
+      "countries_in_supply_chain": 9,
+      "critical_components_count": 11,
+      "alternative_manufacturing_options": "Moderate"
+    },
+    {
+      "product_id": "LP003",
+      "product_name": "Lenovo ThinkPad X1 Carbon",
+      "manufacturer": "EC013",
+      "category": "Business Laptop",
+      "retail_price_usd": 1749,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC103", "name": "Intel Core i7-1370P", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP103", "name": "WQUXGA OLED Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM103", "name": "PCIe SSD", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM103", "name": "LPDDR5 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT103", "name": "Lithium-Polymer Battery", "supplier": "EC013", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS103", "name": "Carbon Fiber Chassis", "supplier": "EC013", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "KBD103", "name": "ThinkPad Keyboard", "supplier": "EC013", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "TPAD103", "name": "TrackPoint and Trackpad", "supplier": "EC039", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI103", "name": "Intel WiFi 6E", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM103", "name": "FHD+IR Camera", "supplier": "EC013", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "SPK103", "name": "Dolby Audio Speakers", "supplier": "EC013", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT103", "name": "Thunderbolt 4 Controllers", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL103", "name": "Dual Fan Cooling", "supplier": "EC013", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS103", "name": "Fingerprint Reader", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "SEC103", "name": "TPM Security Chip", "supplier": "EC041", "country_of_origin": "Netherlands", "tariff_vulnerable": true, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF023", "company": "EC013", "percentage_of_production": 80},
+        {"country": "Hungary", "facility": "MF024", "company": "EC013", "percentage_of_production": 20}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 35},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "China", "percentage_of_sales": 20},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 5.5,
+      "countries_in_supply_chain": 8,
+      "critical_components_count": 11,
+      "alternative_manufacturing_options": "Moderate"
+    },
+    {
+      "product_id": "LP004",
+      "product_name": "HP Spectre x360",
+      "manufacturer": "EC011",
+      "category": "Premium 2-in-1 Laptop",
+      "retail_price_usd": 1649,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC104", "name": "Intel Core i7-1360P", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP104", "name": "3K2K OLED Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM104", "name": "PCIe NVMe SSD", "supplier": "EC031", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM104", "name": "DDR5 Memory", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT104", "name": "Lithium-Ion Battery", "supplier": "EC011", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS104", "name": "CNC Aluminum Chassis", "supplier": "EC011", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "KBD104", "name": "Edge-to-Edge Keyboard", "supplier": "EC011", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "TPAD104", "name": "Precision Trackpad", "supplier": "EC039", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI104", "name": "Intel WiFi 6E", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM104", "name": "5MP IR Camera", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "SPK104", "name": "Bang & Olufsen Audio", "supplier": "EC049", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT104", "name": "Thunderbolt 4 Controllers", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL104", "name": "Vapor Chamber Cooling", "supplier": "EC011", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS104", "name": "Fingerprint Reader", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "HINGE104", "name": "360-degree Hinges", "supplier": "EC011", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF025", "company": "EC003", "percentage_of_production": 65},
+        {"country": "Thailand", "facility": "MF026", "company": "EC011", "percentage_of_production": 35}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 45},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 10}
+      ],
+      "tariff_vulnerability_score": 4.5,
+      "countries_in_supply_chain": 8,
+      "critical_components_count": 11,
+      "alternative_manufacturing_options": "Moderate"
+    },
+    {
+      "product_id": "LP005",
+      "product_name": "ASUS ROG Zephyrus G14",
+      "manufacturer": "EC026",
+      "category": "Gaming Laptop",
+      "retail_price_usd": 1699,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC105", "name": "AMD Ryzen 9 7940HS", "supplier": "EC023", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "GPU105", "name": "NVIDIA RTX 4070", "supplier": "EC017", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP105", "name": "WQXGA 165Hz Display", "supplier": "EC046", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM105", "name": "PCIe Gen4 SSD", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM105", "name": "DDR5 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT105", "name": "Lithium-Ion Battery", "supplier": "EC026", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS105", "name": "Aluminum Alloy Chassis", "supplier": "EC026", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "KBD105", "name": "RGB Backlit Keyboard", "supplier": "EC026", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TPAD105", "name": "Precision Trackpad", "supplier": "EC039", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI105", "name": "MediaTek WiFi 6E", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAM105", "name": "HD Webcam", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "SPK105", "name": "Dolby Atmos Speakers", "supplier": "EC026", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "PORT105", "name": "USB4 Controllers", "supplier": "EC023", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "COOL105", "name": "Vapor Chamber Cooling", "supplier": "EC026", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS105", "name": "Fingerprint Reader", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "Taiwan", "facility": "MF027", "company": "EC026", "percentage_of_production": 60},
+        {"country": "China", "facility": "MF028", "company": "EC026", "percentage_of_production": 40}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 30},
+        {"region": "Europe", "percentage_of_sales": 25},
+        {"region": "Asia Pacific", "percentage_of_sales": 35},
+        {"region": "Rest of World", "percentage_of_sales": 10}
+      ],
+      "tariff_vulnerability_score": 9.0,
+      "countries_in_supply_chain": 6,
+      "critical_components_count": 12,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "LP006",
+      "product_name": "Microsoft Surface Laptop 5",
+      "manufacturer": "EC005",
+      "category": "Premium Laptop",
+      "retail_price_usd": 1299,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC106", "name": "Intel Core i7-1255U", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP106", "name": "PixelSense Display", "supplier": "EC046", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM106", "name": "PCIe SSD", "supplier": "EC031", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM106", "name": "LPDDR5 Memory", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT106", "name": "Lithium-Ion Battery", "supplier": "EC019", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS106", "name": "Aluminum Chassis", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "KBD106", "name": "Microsoft Keyboard", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TPAD106", "name": "Precision Trackpad", "supplier": "EC039", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI106", "name": "Intel WiFi 6E", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM106", "name": "HD Camera", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "SPK106", "name": "Omnisonic Speakers", "supplier": "EC005", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT106", "name": "USB4 Controllers", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL106", "name": "Cooling System", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS106", "name": "Windows Hello Camera", "supplier": "EC005", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "TPM106", "name": "TPM Security Chip", "supplier": "EC041", "country_of_origin": "Netherlands", "tariff_vulnerable": true, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF029", "company": "EC003", "percentage_of_production": 100}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 50},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 6.0,
+      "countries_in_supply_chain": 8,
+      "critical_components_count": 12,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "LP007",
+      "product_name": "Acer Swift 5",
+      "manufacturer": "EC032",
+      "category": "Ultrabook",
+      "retail_price_usd": 1499,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC107", "name": "Intel Core i7-1360P", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP107", "name": "WQXGA IPS Display", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM107", "name": "PCIe Gen4 SSD", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM107", "name": "LPDDR5 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT107", "name": "Lithium-Ion Battery", "supplier": "EC032", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS107", "name": "Magnesium-Aluminum Chassis", "supplier": "EC032", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "KBD107", "name": "Backlit Keyboard", "supplier": "EC032", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TPAD107", "name": "Precision Trackpad", "supplier": "EC039", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI107", "name": "Intel WiFi 6E", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM107", "name": "QHD Webcam", "supplier": "EC033", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "SPK107", "name": "DTS Audio Speakers", "supplier": "EC032", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "PORT107", "name": "Thunderbolt 4 Controllers", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL107", "name": "Dual Fan Cooling", "supplier": "EC032", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS107", "name": "Fingerprint Reader", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT107", "name": "USB-C Controllers", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "Taiwan", "facility": "MF030", "company": "EC032", "percentage_of_production": 40},
+        {"country": "China", "facility": "MF031", "company": "EC032", "percentage_of_production": 60}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 35},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "Asia Pacific", "percentage_of_sales": 25},
+        {"region": "Rest of World", "percentage_of_sales": 10}
+      ],
+      "tariff_vulnerability_score": 6.5,
+      "countries_in_supply_chain": 7,
+      "critical_components_count": 11,
+      "alternative_manufacturing_options": "Moderate"
+    },
+    {
+      "product_id": "LP008",
+      "product_name": "Razer Blade 15",
+      "manufacturer": "EC051",
+      "category": "Gaming Laptop",
+      "retail_price_usd": 2499,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC108", "name": "Intel Core i9-13900H", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "GPU108", "name": "NVIDIA RTX 4080", "supplier": "EC017", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP108", "name": "QHD 240Hz Display", "supplier": "EC046", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM108", "name": "PCIe Gen4 SSD", "supplier": "EC031", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM108", "name": "DDR5 Memory", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT108", "name": "Lithium-Polymer Battery", "supplier": "EC019", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS108", "name": "CNC Aluminum Unibody", "supplier": "EC051", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "KBD108", "name": "RGB Per-Key Keyboard", "supplier": "EC051", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TPAD108", "name": "Glass Trackpad", "supplier": "EC039", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI108", "name": "Intel WiFi 6E", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM108", "name": "HD Webcam", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "SPK108", "name": "THX Spatial Audio", "supplier": "EC051", "country_of_origin": "China", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "PORT108", "name": "Thunderbolt 4 Controllers", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "COOL108", "name": "Vapor Chamber Cooling", "supplier": "EC051", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS108", "name": "Windows Hello Camera", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF032", "company": "EC003", "percentage_of_production": 90},
+        {"country": "Taiwan", "facility": "MF033", "company": "EC016", "percentage_of_production": 10}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 55},
+        {"region": "Europe", "percentage_of_sales": 25},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 7.0,
+      "countries_in_supply_chain": 7,
+      "critical_components_count": 11,
+      "alternative_manufacturing_options": "Limited"
+    }
+  ]
+}

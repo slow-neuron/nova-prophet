@@ -1,0 +1,222 @@
+{
+  "product_components_wearables": [
+    {
+      "product_id": "WR001",
+      "product_name": "Apple Watch Series 8",
+      "manufacturer": "EC001",
+      "category": "Smartwatch",
+      "retail_price_usd": 399,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC301", "name": "Apple S8 SiP", "supplier": "EC007", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP301", "name": "LTPO OLED Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM301", "name": "NAND Flash Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT301", "name": "Lithium-Ion Battery", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS301", "name": "Aluminum/Stainless Case", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS301", "name": "Heart Rate Sensor", "supplier": "EC001", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS302", "name": "Temperature Sensor", "supplier": "EC001", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "SENS303", "name": "Accelerometer/Gyroscope", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI301", "name": "WiFi/Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "LTE301", "name": "Cellular Modem", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "GPS301", "name": "GPS Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK301", "name": "Speaker/Microphone", "supplier": "EC049", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF001", "company": "EC003", "percentage_of_production": 90},
+        {"country": "Vietnam", "facility": "MF007", "company": "EC003", "percentage_of_production": 10}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 45},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "Greater China", "percentage_of_sales": 10},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 6.5,
+      "countries_in_supply_chain": 6,
+      "critical_components_count": 8,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "WR002",
+      "product_name": "Samsung Galaxy Watch 5",
+      "manufacturer": "EC002",
+      "category": "Smartwatch",
+      "retail_price_usd": 279,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC302", "name": "Exynos W920", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP302", "name": "AMOLED Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM302", "name": "eMMC Storage", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM302", "name": "LPDDR4 Memory", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT302", "name": "Lithium-Ion Battery", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS302", "name": "Aluminum Case", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS304", "name": "BioActive Sensor", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS305", "name": "Accelerometer/Gyroscope", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "WIFI302", "name": "WiFi/Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "LTE302", "name": "LTE Modem", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "GPS302", "name": "GPS Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK302", "name": "Speaker/Microphone", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "South Korea", "facility": "MF012", "company": "EC002", "percentage_of_production": 60},
+        {"country": "Vietnam", "facility": "MF013", "company": "EC002", "percentage_of_production": 40}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 35},
+        {"region": "Europe", "percentage_of_sales": 25},
+        {"region": "South Korea", "percentage_of_sales": 20},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 2.0,
+      "countries_in_supply_chain": 3,
+      "critical_components_count": 9,
+      "alternative_manufacturing_options": "Moderate"
+    },
+    {
+      "product_id": "WR003",
+      "product_name": "Fitbit Sense 2",
+      "manufacturer": "EC004",
+      "category": "Health Smartwatch",
+      "retail_price_usd": 299,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC303", "name": "Custom SoC", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP303", "name": "AMOLED Display", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM303", "name": "Flash Storage", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT303", "name": "Lithium-Polymer Battery", "supplier": "EC004", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS303", "name": "Aluminum Case", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS306", "name": "ECG Sensor", "supplier": "EC004", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS307", "name": "EDA Sensor", "supplier": "EC004", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS308", "name": "Skin Temperature Sensor", "supplier": "EC004", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "SENS309", "name": "Accelerometer/Gyroscope", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI303", "name": "Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "GPS303", "name": "GPS Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK303", "name": "Speaker/Microphone", "supplier": "EC049", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF034", "company": "EC003", "percentage_of_production": 100}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 55},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 3.0,
+      "countries_in_supply_chain": 4,
+      "critical_components_count": 9,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "WR004",
+      "product_name": "Garmin Fenix 7",
+      "manufacturer": "EC052",
+      "category": "Premium Sports Watch",
+      "retail_price_usd": 699,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC304", "name": "Custom MCU", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP304", "name": "MIP Transflective Display", "supplier": "EC046", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM304", "name": "Flash Storage", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT304", "name": "Lithium-Ion Battery", "supplier": "EC052", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS304", "name": "Fiber-Reinforced Polymer", "supplier": "EC052", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS310", "name": "Heart Rate Sensor", "supplier": "EC052", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS311", "name": "Pulse Ox Sensor", "supplier": "EC052", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "SENS312", "name": "Barometric Altimeter", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS313", "name": "Accelerometer/Gyroscope", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI304", "name": "WiFi/Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "GPS304", "name": "Multi-GNSS Receiver", "supplier": "EC052", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SOL304", "name": "Solar Charging Lens", "supplier": "EC052", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "Taiwan", "facility": "MF035", "company": "EC052", "percentage_of_production": 80},
+        {"country": "USA", "facility": "MF036", "company": "EC052", "percentage_of_production": 20}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 40},
+        {"region": "Europe", "percentage_of_sales": 40},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 8.0,
+      "countries_in_supply_chain": 4,
+      "critical_components_count": 9,
+      "alternative_manufacturing_options": "Moderate"
+    },
+    {
+      "product_id": "WR005",
+      "product_name": "Xiaomi Mi Band 7",
+      "manufacturer": "EC015",
+      "category": "Fitness Tracker",
+      "retail_price_usd": 59,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC305", "name": "Low-Power MCU", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP305", "name": "AMOLED Display", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM305", "name": "Flash Memory", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT305", "name": "Lithium-Polymer Battery", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS305", "name": "TPU Case & Band", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS314", "name": "Heart Rate Sensor", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS315", "name": "SpO2 Sensor", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "SENS316", "name": "Accelerometer", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI305", "name": "Bluetooth Module", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TOUCH305", "name": "Touch Controller", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "VIB305", "name": "Vibration Motor", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "CONN305", "name": "Charging Connectors", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF017", "company": "EC015", "percentage_of_production": 100}
+      ],
+      "markets": [
+        {"region": "China", "percentage_of_sales": 40},
+        {"region": "India", "percentage_of_sales": 20},
+        {"region": "Europe", "percentage_of_sales": 20},
+        {"region": "Southeast Asia", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 3.0,
+      "countries_in_supply_chain": 3,
+      "critical_components_count": 8,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "WR006",
+      "product_name": "Apple AirPods Pro (2nd Gen)",
+      "manufacturer": "EC001",
+      "category": "Wireless Earbuds",
+      "retail_price_usd": 249,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC306", "name": "H2 Chip", "supplier": "EC007", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SPKR306", "name": "Custom Speaker Drivers", "supplier": "EC049", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MIC306", "name": "Microphone Array", "supplier": "EC049", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "AMP306", "name": "Audio Amplifier", "supplier": "EC027", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT306", "name": "Lithium-Ion Battery (Earbuds)", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT307", "name": "Lithium-Ion Battery (Case)", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS306", "name": "Earbud Housing", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS307", "name": "Charging Case", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS317", "name": "Accelerometer", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS318", "name": "Optical Sensors", "supplier": "EC001", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "WIFI306", "name": "Bluetooth Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CONN306", "name": "USB-C Port", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF001", "company": "EC003", "percentage_of_production": 95},
+        {"country": "Vietnam", "facility": "MF007", "company": "EC003", "percentage_of_production": 5}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 50},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "Greater China", "percentage_of_sales": 10},
+        {"region": "Asia Pacific", "percentage_of_sales": 5},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 7.0,
+      "countries_in_supply_chain": 5,
+      "critical_components_count": 9,
+      "alternative_manufacturing_options": "Limited"
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "tariff_data": [
+    {
+      "tariff_id": "T001",
+      "exporting_country": "China",
+      "importing_country": "USA",
+      "product_category": "Smartphones",
+      "hs_code": "8517.13",
+      "current_tariff_rate": 25.0,
+      "previous_tariff_rate": 0.0,
+      "implementation_date": "2018-07-06",
+      "applies_to_components": [
+        "Assembled smartphones",
+        "Display modules",
+        "Circuit boards",
+        "Metal enclosures"
+      ],
+      "exemptions": "None currently in effect",
+      "trade_value_affected_usd": 32600000000,
+      "status": "Active"
+    },
+    {
+      "tariff_id": "T002",
+      "exporting_country": "China",
+      "importing_country": "USA",
+      "product_category": "Computing Devices",
+      "hs_code": "8471.30",
+      "current_tariff_rate": 25.0,
+      "previous_tariff_rate": 0.0,
+      "implementation_date": "2018-07-06",
+      "applies_to_components": [
+        "Laptops",
+        "Tablets",
+        "Electronic components for computing devices"
+      ],
+      "exemptions": "Certain parts under specific import licenses",
+      "trade_value_affected_usd": 42100000000,
+      "status": "Active"
+    },
+    {
+      "tariff_id": "T003",
+      "exporting_country": "China",
+      "importing_country": "USA",
+      "product_category": "Semiconductor Devices",
+      "hs_code": "8541.40",
+      "current_tariff_rate": 25.0,
+      "previous_tariff_rate": 0.0,
+      "implementation_date": "2018-07-06",
+      "applies_to_components": [
+        "Integrated circuits",
+        "Transistors",
+        "Diodes",
+        "LED components"
+      ],
+      "exemptions": "Some advanced semiconductor manufacturing equipment",
+      "trade_value_affected_usd": 15800000000,
+      "status": "Active"
+    },
+    {
+      "tariff_id": "T004",
+      "exporting_country": "USA",
+      "importing_country": "China",
+      "product_category": "Semiconductor Manufacturing Equipment",
+      "hs_code": "8486.20",
+      "current_tariff_rate": 25.0,
+      "previous_tariff_rate": 8.0,
+      "implementation_date": "2019-05-10",
+      "applies_to_components": [
+        "Lithography equipment",
+        "Chemical vapor deposition equipment",
+        "Testing apparatus",
+        "Wafer processing equipment"
+      ],
+      "exemptions": "Equipment for legacy nodes (28nm+)",
+      "trade_value_affected_usd": 11200000000,
+      "status": "Active"
+    },
+    {
+      "tariff_id": "T005",
+      "exporting_country": "South Korea",
+      "importing_country": "USA",
+      "product_category": "Smartphones",
+      "hs_code": "8517.13",
+      "current_tariff_rate": 0.0,
+      "previous_tariff_rate": 0.0,
+      "implementation_date": "2012-03-15",
+      "applies_to_components": [
+        "Assembled smartphones",
+        "Parts of smartphones"
+      ],
+      "exemptions": "None",
+      "trade_value_affected_usd": 14700000000,
+      "status": "Active under KORUS FTA"
+    },
+    {
+      "tariff_id": "T006",
+      "exporting_country": "Taiwan",
+      "importing_country": "USA",
+      "product_category": "Semiconductor Chips",
+      "hs_code": "8542.31",
+      "current_tariff_rate": 0.0,
+      "previous_tariff_rate": 0.0,
+      "implementation_date": "1996-12-13",
+      "applies_to_components": [
+        "Processors",
+        "Memory chips",
+        "Logic chips"
+      ],
+      "exemptions": "None",
+      "trade_value_affected_usd": 28900000000,
+      "status": "Active under WTO Information Technology Agreement"
+    },
+    {
+      "tariff_id": "T007",
+      "exporting_country": "Vietnam",
+      "importing_country": "USA",
+      "product_category": "Consumer Electronics",
+      "hs_code": "8518.30",
+      "current_tariff_rate": 0.0,
+      "previous_tariff_rate": 4.9,
+      "implementation_date": "2020-07-14",
+      "applies_to_components": [
+        "Headphones",
+        "Earphones",
+        "Audio components"
+      ],
+      "exemptions": "None",
+      "trade_value_affected_usd": 8900000000,
+      "status": "Active under US-Vietnam Trade Agreement"
+    },
+    {
+      "tariff_id": "T008",
+      "exporting_country": "USA",
+      "importing_country": "EU",
+      "product_category": "Computing Devices",
+      "hs_code": "8471.30",
+      "current_tariff_rate": 0.0,
+      "previous_tariff_rate": 0.0,
+      "implementation_date": "1996-12-13",
+      "applies_to_components": [
+        "Laptops",
+        "Tablets",
+        "Computing parts"
+      ],
+      "exemptions": "None",
+      "trade_value_affected_usd": 19300000000,
+      "status": "Active under WTO Information Technology Agreement"
+    },
+    {
+      "tariff_id": "T009",
+      "exporting_country": "China",
+      "importing_country": "EU",
+      "product_category": "Smartphones",
+      "hs_code": "8517.13",
+      "current_tariff_rate": 0.0,
+      "previous_tariff_rate": 0.0,
+      "implementation_date": "1996-12-13",
+      "applies_to_components": [
+        "Assembled smartphones",
+        "Smartphone components"
+      ],
+      "exemptions": "None",
+      "trade_value_affected_usd": 25100000000,
+      "status": "Active under WTO Information Technology Agreement"
+    },
+    {
+      "tariff_id": "T010",
+      "exporting_country": "Japan",
+      "importing_country": "USA",
+      "product_category": "Digital Cameras",
+      "hs_code": "8525.80",
+      "current_tariff_rate": 0.0,
+      "previous_tariff_rate": 0.0,
+      "implementation_date": "1996-12-13",
+      "applies_to_components": [
+        "Digital cameras",
+        "Camera components",
+        "Optical sensors"
+      ],
+      "exemptions": "None",
+      "trade_value_affected_usd": 3900000000,
+      "status": "Active under WTO Information Technology Agreement"
+    }
+  ],
+  
+  "export_controls": [
+    {
+      "control_id": "EC001",
+      "issuing_country": "USA",
+      "target_countries": ["China", "Russia", "Iran", "North Korea", "Syria"],
+      "controlled_technology": "Advanced Semiconductor Manufacturing Equipment",
+      "restriction_level": "Comprehensive",
+      "implementation_date": "2022-10-07",
+      "affected_products": [
+        "Advanced semiconductor manufacturing equipment capable of 14nm or below",
+        "Extreme ultraviolet (EUV) lithography systems",
+        "Deep ultraviolet (DUV) immersion lithography systems",
+        "Software for semiconductor design"
+      ],
+      "license_requirements": "Case-by-case review with presumption of denial",
+      "affected_companies": [
+        "EC006", "EC007", "EC014", "EC017", "EC023", "EC035"
+      ],
+      "impact_description": "Prevents access to advanced chip manufacturing tools, effectively limiting ability to produce chips at 14nm and below"
+    },
+    {
+      "control_id": "EC002",
+      "issuing_country": "USA",
+      "target_countries": ["China"],
+      "controlled_technology": "Advanced Computing and Supercomputing",
+      "restriction_level": "Comprehensive",
+      "implementation_date": "2022-10-07",
+      "affected_products": [
+        "High-performance GPUs",
+        "Advanced CPUs",
+        "Supercomputing components",
+        "AI accelerator chips"
+      ],
+      "license_requirements": "Stringent licensing review, presumption of denial",
+      "affected_companies": [
+        "EC017", "EC006", "EC023", "EC020", "EC014"
+      ],
+      "impact_description": "Limits access to high-end computing chips necessary for AI development and supercomputing"
+    },
+    {
+      "control_id": "EC003",
+      "issuing_country": "USA",
+      "target_countries": ["China"],
+      "controlled_technology": "Telecommunications Equipment",
+      "restriction_level": "Targeted",
+      "implementation_date": "2019-05-15",
+      "affected_products": [
+        "5G network equipment",
+        "Advanced telecommunications infrastructure",
+        "Security-sensitive network components"
+      ],
+      "license_requirements": "Presumption of denial for most cases",
+      "affected_companies": [
+        "EC012", "EC020", "EC014", "EC018"
+      ],
+      "impact_description": "Restricts ability to import key telecommunications equipment and technology from sanctioned vendors"
+    },
+    {
+      "control_id": "EC004",
+      "issuing_country": "EU",
+      "target_countries": ["Russia", "Belarus"],
+      "controlled_technology": "Electronics and Computing",
+      "restriction_level": "Comprehensive",
+      "implementation_date": "2022-02-24",
+      "affected_products": [
+        "Advanced electronics",
+        "Computing devices",
+        "Telecommunications equipment",
+        "Semiconductors"
+      ],
+      "license_requirements": "Prohibited with limited humanitarian exceptions",
+      "affected_companies": [
+        "EC006", "EC007", "EC014", "EC017", "EC023", "EC020", "EC002", "EC008"
+      ],
+      "impact_description": "Comprehensive ban on export of electronic components and finished products"
+    },
+    {
+      "control_id": "EC005",
+      "issuing_country": "Japan",
+      "target_countries": ["China"],
+      "controlled_technology": "Semiconductor Manufacturing Equipment",
+      "restriction_level": "Targeted",
+      "implementation_date": "2023-07-23",
+      "affected_products": [
+        "Advanced chip manufacturing equipment",
+        "23 categories of semiconductor manufacturing tools"
+      ],
+      "license_requirements": "Case-by-case review with enhanced scrutiny",
+      "affected_companies": [
+        "EC035", "EC008", "EC046"
+      ],
+      "impact_description": "Restricts export of critical equipment needed for advanced chip production"
+    }
+  ],
+  
+  "trade_regulations": [
+    {
+      "regulation_id": "TR001",
+      "issuing_entity": "USA",
+      "regulation_name": "CHIPS and Science Act",
+      "implementation_date": "2022-08-09",
+      "description": "Provides $52.7 billion for semiconductor research, development, and manufacturing, plus tax credits. Includes 'guardrails' prohibiting recipients from expanding manufacturing in China.",
+      "affected_sectors": [
+        "Semiconductor manufacturing",
+        "Semiconductor design",
+        "Electronics manufacturing"
+      ],
+      "key_provisions": [
+        "$39 billion in manufacturing incentives",
+        "$13.2 billion for R&D and workforce development",
+        "25% investment tax credit for semiconductor manufacturing",
+        "Prohibits material expansion of semiconductor manufacturing in China for 10 years"
+      ],
+      "affected_companies": [
+        "EC006", "EC007", "EC014", "EC017", "EC021", "EC023", "EC024", "EC029"
+      ],
+      "estimated_impact": "Reshoring of semiconductor manufacturing capabilities, reduced supply chain exposure to China"
+    },
+    {
+      "regulation_id": "TR002",
+      "issuing_entity": "EU",
+      "regulation_name": "European Chips Act",
+      "implementation_date": "2023-04-27",
+      "description": "€43 billion package to boost semiconductor production in Europe, aiming to double EU market share to 20% by 2030.",
+      "affected_sectors": [
+        "Semiconductor manufacturing",
+        "Electronics production",
+        "Research and development"
+      ],
+      "key_provisions": [
+        "€11 billion for research and development",
+        "Support for pilot lines for prototyping",
+        "Investment framework for manufacturing facilities",
+        "Coordination mechanism for monitoring and crisis response"
+      ],
+      "affected_companies": [
+        "EC006", "EC007", "EC023", "EC040", "EC044", "EC041", "EC020"
+      ],
+      "estimated_impact": "Increased semiconductor manufacturing capacity in Europe, reduced dependency on foreign suppliers"
+    },
+    {
+      "regulation_id": "TR003",
+      "issuing_entity": "China",
+      "regulation_name": "14th Five-Year Plan for the Electronics Industry",
+      "implementation_date": "2021-03-11",
+      "description": "Strategic initiative to achieve self-sufficiency in semiconductor production and key electronics technologies.",
+      "affected_sectors": [
+        "Semiconductor manufacturing",
+        "Integrated circuit design",
+        "Electronics manufacturing",
+        "Telecommunications equipment"
+      ],
+      "key_provisions": [
+        "$150 billion+ investment in semiconductor industry",
+        "Tax breaks for domestic chip manufacturers",
+        "Government procurement preferences for domestic products",
+        "Enhanced intellectual property protections for domestic innovations"
+      ],
+      "affected_companies": [
+        "EC012", "EC013", "EC015", "EC025", "EC028", "EC034", "EC036", "EC053"
+      ],
+      "estimated_impact": "Accelerated development of domestic semiconductor supply chain, reduced reliance on foreign technology"
+    },
+    {
+      "regulation_id": "TR004",
+      "issuing_entity": "USA",
+      "regulation_name": "Secure Equipment Act",
+      "implementation_date": "2021-11-11",
+      "description": "Prohibits the FCC from reviewing or approving any authorization for equipment that poses an unacceptable risk to national security.",
+      "affected_sectors": [
+        "Telecommunications equipment",
+        "Network infrastructure",
+        "Consumer electronics"
+      ],
+      "key_provisions": [
+        "Bars equipment from designated companies on the FCC's 'covered list'",
+        "Prevents new equipment authorizations",
+        "Establishes review process for existing authorizations"
+      ],
+      "affected_companies": [
+        "EC012", "EC028", "EC034"
+      ],
+      "estimated_impact": "Exclusion of certain Chinese telecommunications equipment from US markets"
+    },
+    {
+      "regulation_id": "TR005",
+      "issuing_entity": "Japan",
+      "regulation_name": "Economic Security Promotion Act",
+      "implementation_date": "2022-05-11",
+      "description": "Comprehensive legislation to strengthen economic security in critical technology sectors.",
+      "affected_sectors": [
+        "Semiconductor manufacturing",
+        "Critical minerals",
+        "Advanced technologies",
+        "Supply chain management"
+      ],
+      "key_provisions": [
+        "Subsidies for domestic semiconductor production",
+        "Supply chain resilience framework",
+        "Infrastructure security measures",
+        "Government support for critical technology R&D"
+      ],
+      "affected_companies": [
+        "EC008", "EC019", "EC033", "EC046"
+      ],
+      "estimated_impact": "Enhanced supply chain security for Japanese electronics industry, increased domestic production capacity"
+    }
+  ],
+  
+  "supply_chain_disruptions": [
+    {
+      "disruption_id": "SD001",
+      "type": "Geopolitical",
+      "name": "China-Taiwan Tensions",
+      "start_date": "2022-08-01",
+      "end_date": null,
+      "ongoing": true,
+      "affected_regions": [
+        "Taiwan",
+        "China",
+        "Global semiconductor supply chain"
+      ],
+      "affected_product_categories": [
+        "Semiconductor chips",
+        "Electronic components",
+        "Consumer electronics"
+      ],
+      "severity": "High",
+      "key_impacts": [
+        "Contingency planning by Taiwanese manufacturers",
+        "Increased prices due to risk premiums",
+        "Accelerated diversification of manufacturing locations",
+        "Stockpiling of critical components by OEMs"
+      ],
+      "affected_companies": [
+        "EC007", "EC016", "EC022", "EC026", "EC029", "EC032", "EC038", "EC047"
+      ],
+      "estimated_financial_impact_usd": 15000000000,
+      "recovery_status": "Ongoing risk management"
+    },
+    {
+      "disruption_id": "SD002",
+      "type": "Trade Restrictions",
+      "name": "US-China Semiconductor Export Controls",
+      "start_date": "2022-10-07",
+      "end_date": null,
+      "ongoing": true,
+      "affected_regions": [
+        "China",
+        "United States",
+        "Global semiconductor market"
+      ],
+      "affected_product_categories": [
+        "Advanced semiconductor manufacturing equipment",
+        "High-performance computing chips",
+        "AI processors"
+      ],
+      "severity": "Very High",
+      "key_impacts": [
+        "Restricted access to advanced manufacturing equipment for Chinese firms",
+        "Manufacturing capability gaps for sub-14nm nodes in China",
+        "Reduced sales for US equipment manufacturers in Chinese market",
+        "Accelerated Chinese investment in domestic alternatives"
+      ],
+      "affected_companies": [
+        "EC006", "EC007", "EC012", "EC013", "EC014", "EC017", "EC023", "EC035", "EC036"
+      ],
+      "estimated_financial_impact_usd": 50000000000,
+      "recovery_status": "Long-term structural adjustment"
+    },
+    {
+      "disruption_id": "SD003",
+      "type": "Natural Disaster",
+      "name": "Taiwan Drought Impact on Semiconductor Production",
+      "start_date": "2021-01-01",
+      "end_date": "2021-06-30",
+      "ongoing": false,
+      "affected_regions": [
+        "Taiwan",
+        "Global semiconductor supply chain"
+      ],
+      "affected_product_categories": [
+        "Semiconductor wafers",
+        "Integrated circuits",
+        "Memory chips",
+        "Consumer electronics"
+      ],
+      "severity": "High",
+      "key_impacts": [
+        "Water rationing affecting chip manufacturing",
+        "Production delays at major foundries",
+        "Price increases for semiconductor components",
+        "Exacerbated existing shortages in auto and consumer electronics"
+      ],
+      "affected_companies": [
+        "EC007", "EC016", "EC022", "EC026", "EC029", "EC038"
+      ],
+      "estimated_financial_impact_usd": 5000000000,
+      "recovery_status": "Resolved but highlighted vulnerabilities"
+    },
+    {
+      "disruption_id": "SD004",
+      "type": "Supply/Demand Imbalance",
+      "name": "Global Chip Shortage",
+      "start_date": "2020-04-01",
+      "end_date": "2022-12-31",
+      "ongoing": false,
+      "affected_regions": [
+        "Global"
+      ],
+      "affected_product_categories": [
+        "Automotive electronics",
+        "Consumer electronics",
+        "Computing devices",
+        "Industrial equipment"
+      ],
+      "severity": "Extreme",
+      "key_impacts": [
+        "Production halts in automotive manufacturing",
+        "Extended lead times for electronics components (up to 52 weeks)",
+        "Significant price increases for semiconductor components",
+        "Product design changes to accommodate available components"
+      ],
+      "affected_companies": [
+        "EC001", "EC002", "EC004", "EC005", "EC006", "EC007", "EC008", "EC009", "EC010",
+        "EC011", "EC013", "EC014", "EC017", "EC021", "EC023", "EC024", "EC026", "EC030"
+      ],
+      "estimated_financial_impact_usd": 500000000000,
+      "recovery_status": "Gradually resolved through capacity expansion and demand adjustments"
+    },
+    {
+      "disruption_id": "SD005",
+      "type": "Logistics",
+      "name": "COVID-19 Supply Chain Disruptions",
+      "start_date": "2020-01-15",
+      "end_date": "2022-06-30",
+      "ongoing": false,
+      "affected_regions": [
+        "Global",
+        "China",
+        "Southeast Asia"
+      ],
+      "affected_product_categories": [
+        "All consumer electronics",
+        "Computing devices",
+        "Networking equipment",
+        "Components and subassemblies"
+      ],
+      "severity": "Extreme",
+      "key_impacts": [
+        "Manufacturing shutdowns due to lockdowns",
+        "Labor shortages in assembly plants",
+        "Shipping container shortages and port congestion",
+        "Air freight capacity constraints and rate increases",
+        "Extended transit times (2-3x normal durations)"
+      ],
+      "affected_companies": [
+        "EC001", "EC002", "EC003", "EC004", "EC005", "EC008", "EC009", "EC010", 
+        "EC011", "EC012", "EC013", "EC015", "EC016", "EC022", "EC025", "EC026", 
+        "EC028", "EC030", "EC032", "EC034", "EC038", "EC047"
+      ],
+      "estimated_financial_impact_usd": 400000000000,
+      "recovery_status": "Resolved but led to structural changes in supply chain management"
+    }
+  ],
+  
+  "regional_manufacturing_capacity": [
+    {
+      "region_id": "RMC001",
+      "region_name": "Taiwan",
+      "manufacturing_category": "Semiconductor Foundry",
+      "current_capacity_percentage": 62.0,
+      "projected_capacity_2025_percentage": 58.0,
+      "key_capabilities": [
+        "Advanced nodes (3nm-7nm)",
+        "High-volume manufacturing",
+        "Specialty process technologies",
+        "Memory manufacturing"
+      ],
+      "major_facilities": [
+        {"company_id": "EC007", "facility_name": "TSMC Fab 18", "node_capacity": "3nm-5nm"},
+        {"company_id": "EC007", "facility_name": "TSMC Fab 15", "node_capacity": "5nm-7nm"},
+        {"company_id": "EC007", "facility_name": "TSMC Fab 12", "node_capacity": "7nm-16nm"},
+        {"company_id": "EC038", "facility_name": "UMC Fab 12A", "node_capacity": "14nm-28nm"}
+      ],
+      "vulnerability_factors": [
+        "Geopolitical tensions with China",
+        "Natural disaster risks (earthquakes, drought)",
+        "High concentration of global advanced capacity",
+        "Water supply constraints"
+      ],
+      "strategic_importance": "Very High",
+      "tariff_exposure": "Moderate"
+    },
+    {
+      "region_id": "RMC002",
+      "region_name": "South Korea",
+      "manufacturing_category": "Memory and Foundry",
+      "current_capacity_percentage": 13.0,
+      "projected_capacity_2025_percentage": 12.0,
+      "key_capabilities": [
+        "DRAM production",
+        "NAND flash production",
+        "Advanced logic nodes (5nm-7nm)",
+        "Display manufacturing"
+      ],
+      "major_facilities": [
+        {"company_id": "EC002", "facility_name": "Samsung Hwaseong", "node_capacity": "5nm-7nm"},
+        {"company_id": "EC002", "facility_name": "Samsung Pyeongtaek", "node_capacity": "DRAM, NAND, 7nm-14nm"},
+        {"company_id": "EC021", "facility_name": "SK Hynix M16", "node_capacity": "DRAM, NAND"}
+      ],
+      "vulnerability_factors": [
+        "Geopolitical tensions with North Korea",
+        "High dependence on equipment imports",
+        "Concentration risk for memory production",
+        "Competition from Chinese manufacturers"
+      ],
+      "strategic_importance": "High",
+      "tariff_exposure": "Low"
+    },
+    {
+      "region_id": "RMC003",
+      "region_name": "China",
+      "manufacturing_category": "Diverse Electronics Manufacturing",
+      "current_capacity_percentage": 15.0,
+      "projected_capacity_2025_percentage": 16.0,
+      "key_capabilities": [
+        "Mid-range node semiconductors (14nm+)",
+        "Assembly and packaging",
+        "Display panel production",
+        "Consumer electronics assembly"
+      ],
+      "major_facilities": [
+        {"company_id": "EC003", "facility_name": "Foxconn Zhengzhou", "node_capacity": "Assembly"},
+        {"company_id": "EC036", "facility_name": "BOE B12", "node_capacity": "Display panels"},
+        {"company_id": "EC034", "facility_name": "SMIC South", "node_capacity": "14nm-28nm"}
+      ],
+      "vulnerability_factors": [
+        "Export control restrictions from US",
+        "Limited access to advanced equipment",
+        "Trade tensions with multiple countries",
+        "Technology transfer restrictions"
+      ],
+      "strategic_importance": "High",
+      "tariff_exposure": "Very High"
+    },
+    {
+      "region_id": "RMC004",
+      "region_name": "United States",
+      "manufacturing_category": "Diverse Semiconductor",
+      "current_capacity_percentage": 8.0,
+      "projected_capacity_2025_percentage": 11.0,
+      "key_capabilities": [
+        "Advanced design and IP",
+        "Specialty semiconductors",
+        "Defense and aerospace chips",
+        "Advanced packaging"
+      ],
+      "major_facilities": [
+        {"company_id": "EC006", "facility_name": "Intel Arizona", "node_capacity": "5nm-10nm"},
+        {"company_id": "EC024", "facility_name": "Micron Idaho", "node_capacity": "DRAM, NAND"},
+        {"company_id": "EC006", "facility_name": "Intel New Mexico", "node_capacity": "7nm-14nm"},
+        {"company_id": "EC023", "facility_name": "GlobalFoundries New York", "node_capacity": "12nm-28nm"}
+      ],
+      "vulnerability_factors": [
+        "Higher operating costs than Asia",
+        "Skills gap in manufacturing workforce",
+        "Limited ecosystem for advanced packaging",
+        "Heavy reliance on imported materials"
+      ],
+      "strategic_importance": "Very High",
+      "tariff_exposure": "Low"
+    },
+    {
+      "region_id": "RMC005",
+      "region_name": "Japan",
+      "manufacturing_category": "Specialty Components",
+      "current_capacity_percentage": 5.0,
+      "projected_capacity_2025_percentage": 4.5,
+      "key_capabilities": [
+        "Semiconductor materials",
+        "Specialty chemicals",
+        "Manufacturing equipment",
+        "Image sensors"
+      ],
+      "major_facilities": [
+        {"company_id": "EC008", "facility_name": "Sony Kumamoto", "node_capacity": "Image sensors"},
+        {"company_id": "EC046", "facility_name": "Sharp Kameyama", "node_capacity": "Display panels"},
+        {"company_id": "EC035", "facility_name": "Tokyo Electron Miyagi", "node_capacity": "Equipment"}
+      ],
+      "vulnerability_factors": [
+        "Aging infrastructure",
+        "High energy costs",
+        "Natural disaster risks (earthquakes, tsunamis)",
+        "Declining share of global production"
+      ],
+      "strategic_importance": "High",
+      "tariff_exposure": "Low"
+    },
+    {
+      "region_id": "RMC006",
+      "region_name": "European Union",
+      "manufacturing_category": "Specialty Semiconductors",
+      "current_capacity_percentage": 7.0,
+      "projected_capacity_2025_percentage": 9.0,
+      "key_capabilities": [
+        "Automotive semiconductors",
+        "Power electronics",
+        "Sensors and MEMS",
+        "Security chips"
+      ],
+      "major_facilities": [
+        {"company_id": "EC040", "facility_name": "Infineon Dresden", "node_capacity": "Power, automotive chips"},
+        {"company_id": "EC044", "facility_name": "STMicroelectronics Crolles", "node_capacity": "Automotive, MCUs"},
+        {"company_id": "EC041", "facility_name": "NXP Hamburg", "node_capacity": "Security, automotive chips"}
+      ],
+      "vulnerability_factors": [
+        "Fragmented production across countries",
+        "Limited advanced node capacity",
+        "High energy costs",
+        "Dependency on equipment imports"
+      ],
+      "strategic_importance": "High",
+      "tariff_exposure": "Low"
+    }
+  ]
+}
