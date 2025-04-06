@@ -1,0 +1,205 @@
+{
+  "product_components_smartphones": [
+    {
+      "product_id": "SP001",
+      "product_name": "iPhone 15 Pro",
+      "manufacturer": "EC001",
+      "category": "Premium Smartphone",
+      "retail_price_usd": 999,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC001", "name": "A17 Pro Chip", "supplier": "EC007", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP001", "name": "Super Retina XDR OLED Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM001", "name": "NAND Flash Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MOD001", "name": "5G Modem", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM001", "name": "Triple Camera System", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT001", "name": "Lithium-Ion Battery", "supplier": "EC019", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS001", "name": "Titanium Frame", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "GLS001", "name": "Ceramic Shield Front", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RF001", "name": "RF Front End Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK001", "name": "Stereo Speaker System", "supplier": "EC049", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "MIC001", "name": "Microphone Array", "supplier": "EC049", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "WIFI001", "name": "WiFi 6E Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS001", "name": "Face ID Sensor Array", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "VIB001", "name": "Haptic Engine", "supplier": "EC019", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "GYRO001", "name": "Gyroscope/Accelerometer", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF001", "company": "EC003", "percentage_of_production": 60},
+        {"country": "India", "facility": "MF011", "company": "EC003", "percentage_of_production": 25},
+        {"country": "Vietnam", "facility": "MF007", "company": "EC003", "percentage_of_production": 15}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 35},
+        {"region": "Europe", "percentage_of_sales": 25},
+        {"region": "Greater China", "percentage_of_sales": 20},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 8.5,
+      "countries_in_supply_chain": 12,
+      "critical_components_count": 10,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "SP002",
+      "product_name": "Samsung Galaxy S23 Ultra",
+      "manufacturer": "EC002",
+      "category": "Premium Smartphone",
+      "retail_price_usd": 1199,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC002", "name": "Snapdragon 8 Gen 2", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP002", "name": "Dynamic AMOLED 2X Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM002", "name": "NAND Flash Storage", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MOD002", "name": "5G Modem", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM002", "name": "Quad Camera System", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT002", "name": "Lithium-Ion Battery", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS002", "name": "Aluminum Frame", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "GLS002", "name": "Gorilla Glass Victus 2", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RF002", "name": "RF Front End Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK002", "name": "Stereo Speaker System", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "MIC002", "name": "Microphone Array", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "WIFI002", "name": "WiFi 6E Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS002", "name": "Ultrasonic Fingerprint Sensor", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "VIB002", "name": "Vibration Motor", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "GYRO002", "name": "Gyroscope/Accelerometer", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "South Korea", "facility": "MF012", "company": "EC002", "percentage_of_production": 40},
+        {"country": "Vietnam", "facility": "MF013", "company": "EC002", "percentage_of_production": 35},
+        {"country": "India", "facility": "MF014", "company": "EC002", "percentage_of_production": 25}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 30},
+        {"region": "Europe", "percentage_of_sales": 25},
+        {"region": "Asia Pacific", "percentage_of_sales": 20},
+        {"region": "South Korea", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 10}
+      ],
+      "tariff_vulnerability_score": 5.5,
+      "countries_in_supply_chain": 8,
+      "critical_components_count": 10,
+      "alternative_manufacturing_options": "Moderate"
+    },
+    {
+      "product_id": "SP003",
+      "product_name": "Google Pixel 7 Pro",
+      "manufacturer": "EC004",
+      "category": "Premium Smartphone",
+      "retail_price_usd": 899,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC003", "name": "Google Tensor G2", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP003", "name": "LTPO OLED Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM003", "name": "NAND Flash Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MOD003", "name": "5G Modem", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM003", "name": "Triple Camera System", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT003", "name": "Lithium-Ion Battery", "supplier": "EC019", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS003", "name": "Aluminum Frame", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "GLS003", "name": "Gorilla Glass Victus", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RF003", "name": "RF Front End Module", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK003", "name": "Stereo Speaker System", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "MIC003", "name": "Microphone Array", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "WIFI003", "name": "WiFi 6E Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS003", "name": "Fingerprint Sensor", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "VIB003", "name": "Haptic Engine", "supplier": "EC019", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "GYRO003", "name": "Gyroscope/Accelerometer", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "Vietnam", "facility": "MF015", "company": "EC003", "percentage_of_production": 70},
+        {"country": "Taiwan", "facility": "MF016", "company": "EC016", "percentage_of_production": 30}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 45},
+        {"region": "Europe", "percentage_of_sales": 35},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 7.0,
+      "countries_in_supply_chain": 10,
+      "critical_components_count": 10,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "SP004",
+      "product_name": "Xiaomi 13 Pro",
+      "manufacturer": "EC015",
+      "category": "Premium Smartphone",
+      "retail_price_usd": 899,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC004", "name": "Snapdragon 8 Gen 2", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP004", "name": "AMOLED Display", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM004", "name": "NAND Flash Storage", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MOD004", "name": "5G Modem", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM004", "name": "Leica Triple Camera", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT004", "name": "Lithium-Ion Battery", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS004", "name": "Aluminum Frame", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "GLS004", "name": "Gorilla Glass Victus", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RF004", "name": "RF Front End Module", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK004", "name": "Stereo Speaker System", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "MIC004", "name": "Microphone Array", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "WIFI004", "name": "WiFi 6E Module", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS004", "name": "Fingerprint Sensor", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "VIB004", "name": "Vibration Motor", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "GYRO004", "name": "Gyroscope/Accelerometer", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF017", "company": "EC015", "percentage_of_production": 85},
+        {"country": "India", "facility": "MF018", "company": "EC015", "percentage_of_production": 15}
+      ],
+      "markets": [
+        {"region": "China", "percentage_of_sales": 45},
+        {"region": "India", "percentage_of_sales": 20},
+        {"region": "Europe", "percentage_of_sales": 20},
+        {"region": "Southeast Asia", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 5.0,
+      "countries_in_supply_chain": 7,
+      "critical_components_count": 10,
+      "alternative_manufacturing_options": "Moderate"
+    },
+    {
+      "product_id": "SP005",
+      "product_name": "OnePlus 11",
+      "manufacturer": "EC025",
+      "category": "Premium Smartphone",
+      "retail_price_usd": 699,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC005", "name": "Snapdragon 8 Gen 2", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP005", "name": "AMOLED Display", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM005", "name": "NAND Flash Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MOD005", "name": "5G Modem", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM005", "name": "Hasselblad Camera System", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT005", "name": "Lithium-Ion Battery", "supplier": "EC025", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS005", "name": "Aluminum Frame", "supplier": "EC025", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "GLS005", "name": "Gorilla Glass Victus", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RF005", "name": "RF Front End Module", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK005", "name": "Stereo Speaker System", "supplier": "EC025", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "MIC005", "name": "Microphone Array", "supplier": "EC025", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "WIFI005", "name": "WiFi 6E Module", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS005", "name": "Fingerprint Sensor", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "VIB005", "name": "Vibration Motor", "supplier": "EC025", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "GYRO005", "name": "Gyroscope/Accelerometer", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF019", "company": "EC025", "percentage_of_production": 90},
+        {"country": "India", "facility": "MF020", "company": "EC025", "percentage_of_production": 10}
+      ],
+      "markets": [
+        {"region": "China", "percentage_of_sales": 40},
+        {"region": "India", "percentage_of_sales": 25},
+        {"region": "Europe", "percentage_of_sales": 20},
+        {"region": "North America", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 5.5,
+      "countries_in_supply_chain": 7,
+      "critical_components_count": 10,
+      "alternative_manufacturing_options": "Limited"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "product_components_tablets": [
+    {
+      "product_id": "TB001",
+      "product_name": "iPad Pro 12.9-inch",
+      "manufacturer": "EC001",
+      "category": "Premium Tablet",
+      "retail_price_usd": 1099,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC201", "name": "Apple M2 Chip", "supplier": "EC007", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "DISP201", "name": "Liquid Retina XDR Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM201", "name": "NAND Flash Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM201", "name": "Unified Memory", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT201", "name": "Lithium-Polymer Battery", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS201", "name": "Aluminum Chassis", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAM201", "name": "TrueDepth Camera System", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "WIFI201", "name": "WiFi 6E Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK201", "name": "Four Speaker Audio", "supplier": "EC049", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT201", "name": "USB-C Controllers", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS201", "name": "Face ID Sensors", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TOUCH201", "name": "Touch Screen Controller", "supplier": "EC001", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF001", "company": "EC003", "percentage_of_production": 80},
+        {"country": "Vietnam", "facility": "MF007", "company": "EC003", "percentage_of_production": 20}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 40},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "Greater China", "percentage_of_sales": 15},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 7.0,
+      "countries_in_supply_chain": 9,
+      "critical_components_count": 10,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "TB002",
+      "product_name": "Samsung Galaxy Tab S8 Ultra",
+      "manufacturer": "EC002",
+      "category": "Premium Tablet",
+      "retail_price_usd": 1099,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC202", "name": "Snapdragon 8 Gen 1", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP202", "name": "Super AMOLED Display", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM202", "name": "UFS Storage", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM202", "name": "LPDDR5 Memory", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT202", "name": "Lithium-Ion Battery", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS202", "name": "Aluminum Frame", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM202", "name": "Dual Front Cameras", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "WIFI202", "name": "WiFi 6E Module", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK202", "name": "Quad Speakers", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT202", "name": "USB-C Controllers", "supplier": "EC020", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS202", "name": "Fingerprint Sensor", "supplier": "EC002", "country_of_origin": "South Korea", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "TOUCH202", "name": "S Pen Digitizer", "supplier": "EC038", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "Vietnam", "facility": "MF013", "company": "EC002", "percentage_of_production": 70},
+        {"country": "South Korea", "facility": "MF012", "company": "EC002", "percentage_of_production": 30}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 30},
+        {"region": "Europe", "percentage_of_sales": 25},
+        {"region": "Asia Pacific", "percentage_of_sales": 25},
+        {"region": "South Korea", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 3.0,
+      "countries_in_supply_chain": 5,
+      "critical_components_count": 10,
+      "alternative_manufacturing_options": "Moderate"
+    },
+    {
+      "product_id": "TB003",
+      "product_name": "Microsoft Surface Pro 9",
+      "manufacturer": "EC005",
+      "category": "Premium 2-in-1 Tablet",
+      "retail_price_usd": 999,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC203", "name": "Intel Core i7-1255U", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP203", "name": "PixelSense Flow Display", "supplier": "EC046", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "MEM203", "name": "PCIe SSD", "supplier": "EC031", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "RAM203", "name": "LPDDR5 Memory", "supplier": "EC024", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "BAT203", "name": "Lithium-Ion Battery", "supplier": "EC019", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAS203", "name": "Aluminum Chassis", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "CAM203", "name": "Front-Facing Camera", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "WIFI203", "name": "WiFi 6E Module", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK203", "name": "Dolby Atmos Speakers", "supplier": "EC005", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT203", "name": "USB4/Thunderbolt Controllers", "supplier": "EC006", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS203", "name": "Windows Hello Camera", "supplier": "EC005", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "KICK203", "name": "Kickstand Mechanism", "supplier": "EC003", "country_of_origin": "China", "tariff_vulnerable": true, "critical": true}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF029", "company": "EC003", "percentage_of_production": 100}
+      ],
+      "markets": [
+        {"region": "North America", "percentage_of_sales": 50},
+        {"region": "Europe", "percentage_of_sales": 30},
+        {"region": "Asia Pacific", "percentage_of_sales": 15},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 5.0,
+      "countries_in_supply_chain": 7,
+      "critical_components_count": 9,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "TB004",
+      "product_name": "Lenovo Tab P12 Pro",
+      "manufacturer": "EC013",
+      "category": "Premium Tablet",
+      "retail_price_usd": 699,
+      "release_year": 2022,
+      "key_components": [
+        {"component_id": "PROC204", "name": "Snapdragon 870", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP204", "name": "AMOLED Display", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM204", "name": "UFS Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM204", "name": "LPDDR5 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT204", "name": "Lithium-Polymer Battery", "supplier": "EC013", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS204", "name": "Aluminum Alloy Body", "supplier": "EC013", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM204", "name": "Dual Cameras", "supplier": "EC008", "country_of_origin": "Japan", "tariff_vulnerable": true, "critical": false},
+        {"component_id": "WIFI204", "name": "WiFi 6 Module", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SPK204", "name": "JBL Quad Speakers", "supplier": "EC013", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT204", "name": "USB-C Controllers", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SENS204", "name": "Fingerprint Sensor", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PEN204", "name": "Precision Pen 3", "supplier": "EC013", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF023", "company": "EC013", "percentage_of_production": 100}
+      ],
+      "markets": [
+        {"region": "China", "percentage_of_sales": 35},
+        {"region": "North America", "percentage_of_sales": 25},
+        {"region": "Europe", "percentage_of_sales": 25},
+        {"region": "Asia Pacific", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 4.0,
+      "countries_in_supply_chain": 6,
+      "critical_components_count": 8,
+      "alternative_manufacturing_options": "Limited"
+    },
+    {
+      "product_id": "TB005",
+      "product_name": "Xiaomi Pad 6",
+      "manufacturer": "EC015",
+      "category": "Mid-Range Tablet",
+      "retail_price_usd": 399,
+      "release_year": 2023,
+      "key_components": [
+        {"component_id": "PROC205", "name": "Snapdragon 870", "supplier": "EC014", "country_of_origin": "USA", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "DISP205", "name": "LCD Display", "supplier": "EC036", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "MEM205", "name": "UFS Storage", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "RAM205", "name": "LPDDR5 Memory", "supplier": "EC021", "country_of_origin": "South Korea", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "BAT205", "name": "Lithium-Ion Battery", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAS205", "name": "Metal Unibody", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "CAM205", "name": "13MP Camera", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "WIFI205", "name": "WiFi 6 Module", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "SPK205", "name": "Quad Speakers", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": false},
+        {"component_id": "PORT205", "name": "USB-C Controllers", "supplier": "EC029", "country_of_origin": "Taiwan", "tariff_vulnerable": true, "critical": true},
+        {"component_id": "TOUCH205", "name": "Touch Controller", "supplier": "EC015", "country_of_origin": "China", "tariff_vulnerable": false, "critical": true},
+        {"component_id": "SENS205", "name": "Accelerometer", "supplier": "EC044", "country_of_origin": "Switzerland", "tariff_vulnerable": true, "critical": false}
+      ],
+      "assembly_locations": [
+        {"country": "China", "facility": "MF017", "company": "EC015", "percentage_of_production": 100}
+      ],
+      "markets": [
+        {"region": "China", "percentage_of_sales": 50},
+        {"region": "India", "percentage_of_sales": 20},
+        {"region": "Europe", "percentage_of_sales": 15},
+        {"region": "Southeast Asia", "percentage_of_sales": 10},
+        {"region": "Rest of World", "percentage_of_sales": 5}
+      ],
+      "tariff_vulnerability_score": 4.5,
+      "countries_in_supply_chain": 5,
+      "critical_components_count": 8,
+      "alternative_manufacturing_options": "Limited"
+    }
+  ]
+}
