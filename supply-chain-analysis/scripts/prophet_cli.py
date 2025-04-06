@@ -332,7 +332,7 @@ Examples:
                 output_file = output_dir / f"tariff_vulnerability{suffix}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
             
             # Create parent directory if it doesn't exist
-            output_file.parent.mkdir(parents=True, exist_ok=True)
+            #output_file.parent.mkdir(parents=True, exist_ok=True)
             
             with open(str(output_file), 'w') as f:
                 json.dump(tariff_vulnerability, f, indent=2)
