@@ -55,13 +55,13 @@ Use the prophet_cli.py script to run various analyses:
 
 ```bash
 # Analyze a company
-python scripts/prophet_cli.py analyze company EC001 --graph output/supply_chain.pickle
+python scripts/prophet_cli.py --graph output/supply_chain.pickle analyze company EC001
 
 # Predict the impact of tariff changes
-python scripts/prophet_cli.py predict tariff --country China --increase 25 --graph output/supply_chain.pickle
+python scripts/prophet_cli.py --graph output/supply_chain.pickle predict tariff  --country China --increase 25 
 
-# Generate a comprehensive report
-python scripts/prophet_cli.py report comprehensive --company EC001 --graph output/supply_chain.pickle
+#Running a Comprehensive Tariff Vulnerability Analysis
+python scripts/prophet_cli.py  --graph output/supply_chain.pickle analyze tariff-vulnerability 
 ```
 
 ## Components
@@ -95,4 +95,4 @@ The system uses several JSON data files to build the supply chain graph:
 
 ## Output
 
-Analysis results are saved to the `output/` directory in either JSON or Markdown format.
+Analysis results are saved to the `output/` directory in either JSON 

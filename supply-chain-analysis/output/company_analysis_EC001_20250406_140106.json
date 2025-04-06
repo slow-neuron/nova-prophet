@@ -1,0 +1,417 @@
+{
+  "report_title": "Supply Chain Analysis Report for Apple Inc.",
+  "executive_summary": {
+    "resilience_score": 15.5,
+    "risk_level": "high",
+    "critical_components_count": 54,
+    "single_points_count": 897,
+    "affected_by_tariffs_count": 203,
+    "top_risks": [
+      {
+        "risk_type": "low_resilience",
+        "description": "Low overall supply chain resilience score: 15.5/100",
+        "priority": "high"
+      },
+      {
+        "risk_type": "critical_components",
+        "description": "Found 54 critical components with high vulnerability (e.g., A17 Pro Chip, Super Retina XDR OLED Display, NAND Flash Storage)",
+        "priority": "high"
+      },
+      {
+        "risk_type": "single_points",
+        "description": "Found 897 single points of failure in the supply chain",
+        "priority": "high"
+      },
+      {
+        "risk_type": "geographical_concentration",
+        "description": "High geographical concentration in 6 countries (e.g., USA, China)",
+        "priority": "high"
+      },
+      {
+        "risk_type": "tariff_vulnerability",
+        "description": "Found 203 components vulnerable to tariffs affecting 32 products",
+        "priority": "high"
+      }
+    ]
+  },
+  "key_metrics": {
+    "total_components": 66,
+    "unique_suppliers": 15,
+    "unique_countries": 6,
+    "critical_components": 54,
+    "tariff_vulnerable_components": 39,
+    "single_supplier_components": 66
+  },
+  "critical_components": [
+    {
+      "component_id": "PROC001",
+      "component_name": "A17 Pro Chip",
+      "product_id": "SP001",
+      "product_name": "iPhone 15 Pro",
+      "criticality_score": 0.9,
+      "tariff_vulnerable": true,
+      "suppliers": [
+        "Taiwan Semiconductor Manufacturing Company (TSMC)"
+      ],
+      "countries": [
+        "Taiwan"
+      ]
+    },
+    {
+      "component_id": "DISP001",
+      "component_name": "Super Retina XDR OLED Display",
+      "product_id": "SP001",
+      "product_name": "iPhone 15 Pro",
+      "criticality_score": 0.9,
+      "tariff_vulnerable": true,
+      "suppliers": [
+        "Samsung Electronics"
+      ],
+      "countries": [
+        "South Korea"
+      ]
+    },
+    {
+      "component_id": "MEM001",
+      "component_name": "NAND Flash Storage",
+      "product_id": "SP001",
+      "product_name": "iPhone 15 Pro",
+      "criticality_score": 0.9,
+      "tariff_vulnerable": true,
+      "suppliers": [
+        "SK Hynix"
+      ],
+      "countries": [
+        "South Korea"
+      ]
+    },
+    {
+      "component_id": "CAM001",
+      "component_name": "Triple Camera System",
+      "product_id": "SP001",
+      "product_name": "iPhone 15 Pro",
+      "criticality_score": 0.9,
+      "tariff_vulnerable": true,
+      "suppliers": [
+        "Sony Group Corporation"
+      ],
+      "countries": [
+        "Japan"
+      ]
+    },
+    {
+      "component_id": "BAT001",
+      "component_name": "Lithium-Ion Battery",
+      "product_id": "SP001",
+      "product_name": "iPhone 15 Pro",
+      "criticality_score": 0.9,
+      "tariff_vulnerable": true,
+      "suppliers": [
+        "Panasonic Holdings Corporation"
+      ],
+      "countries": [
+        "Japan"
+      ]
+    },
+    {
+      "component_id": "CAS001",
+      "component_name": "Titanium Frame",
+      "product_id": "SP001",
+      "product_name": "iPhone 15 Pro",
+      "criticality_score": 0.9,
+      "tariff_vulnerable": true,
+      "suppliers": [
+        "Foxconn (Hon Hai Precision Industry)"
+      ],
+      "countries": [
+        "China"
+      ]
+    },
+    {
+      "component_id": "GLS001",
+      "component_name": "Ceramic Shield Front",
+      "product_id": "SP001",
+      "product_name": "iPhone 15 Pro",
+      "criticality_score": 0.9,
+      "tariff_vulnerable": true,
+      "suppliers": [
+        "BOE Technology Group"
+      ],
+      "countries": [
+        "China"
+      ]
+    },
+    {
+      "component_id": "SENS001",
+      "component_name": "Face ID Sensor Array",
+      "product_id": "SP001",
+      "product_name": "iPhone 15 Pro",
+      "criticality_score": 0.9,
+      "tariff_vulnerable": true,
+      "suppliers": [
+        "STMicroelectronics"
+      ],
+      "countries": [
+        "Switzerland"
+      ]
+    },
+    {
+      "component_id": "PROC201",
+      "component_name": "Apple M2 Chip",
+      "product_id": "TB001",
+      "product_name": "iPad Pro 12.9-inch",
+      "criticality_score": 0.9,
+      "tariff_vulnerable": true,
+      "suppliers": [
+        "Taiwan Semiconductor Manufacturing Company (TSMC)"
+      ],
+      "countries": [
+        "Taiwan"
+      ]
+    },
+    {
+      "component_id": "DISP201",
+      "component_name": "Liquid Retina XDR Display",
+      "product_id": "TB001",
+      "product_name": "iPad Pro 12.9-inch",
+      "criticality_score": 0.9,
+      "tariff_vulnerable": true,
+      "suppliers": [
+        "Samsung Electronics"
+      ],
+      "countries": [
+        "South Korea"
+      ]
+    }
+  ],
+  "single_points_of_failure": [
+    {
+      "type": "single_supplier",
+      "component_id": "PROC001",
+      "component_name": "A17 Pro Chip",
+      "supplier_id": "EC007",
+      "supplier_name": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+      "affected_products": [
+        {
+          "id": "SP001",
+          "name": "iPhone 15 Pro"
+        }
+      ],
+      "risk_level": "high"
+    },
+    {
+      "type": "single_supplier",
+      "component_id": "DISP001",
+      "component_name": "Super Retina XDR OLED Display",
+      "supplier_id": "EC002",
+      "supplier_name": "Samsung Electronics",
+      "affected_products": [
+        {
+          "id": "SP001",
+          "name": "iPhone 15 Pro"
+        }
+      ],
+      "risk_level": "high"
+    },
+    {
+      "type": "single_supplier",
+      "component_id": "MEM001",
+      "component_name": "NAND Flash Storage",
+      "supplier_id": "EC021",
+      "supplier_name": "SK Hynix",
+      "affected_products": [
+        {
+          "id": "SP001",
+          "name": "iPhone 15 Pro"
+        }
+      ],
+      "risk_level": "high"
+    },
+    {
+      "type": "single_supplier",
+      "component_id": "MOD001",
+      "component_name": "5G Modem",
+      "supplier_id": "EC014",
+      "supplier_name": "Qualcomm Incorporated",
+      "affected_products": [
+        {
+          "id": "SP001",
+          "name": "iPhone 15 Pro"
+        }
+      ],
+      "risk_level": "high"
+    },
+    {
+      "type": "single_supplier",
+      "component_id": "CAM001",
+      "component_name": "Triple Camera System",
+      "supplier_id": "EC008",
+      "supplier_name": "Sony Group Corporation",
+      "affected_products": [
+        {
+          "id": "SP001",
+          "name": "iPhone 15 Pro"
+        }
+      ],
+      "risk_level": "high"
+    },
+    {
+      "type": "single_supplier",
+      "component_id": "BAT001",
+      "component_name": "Lithium-Ion Battery",
+      "supplier_id": "EC019",
+      "supplier_name": "Panasonic Holdings Corporation",
+      "affected_products": [
+        {
+          "id": "SP001",
+          "name": "iPhone 15 Pro"
+        }
+      ],
+      "risk_level": "high"
+    },
+    {
+      "type": "single_supplier",
+      "component_id": "CAS001",
+      "component_name": "Titanium Frame",
+      "supplier_id": "EC003",
+      "supplier_name": "Foxconn (Hon Hai Precision Industry)",
+      "affected_products": [
+        {
+          "id": "SP001",
+          "name": "iPhone 15 Pro"
+        }
+      ],
+      "risk_level": "high"
+    },
+    {
+      "type": "single_supplier",
+      "component_id": "GLS001",
+      "component_name": "Ceramic Shield Front",
+      "supplier_id": "EC036",
+      "supplier_name": "BOE Technology Group",
+      "affected_products": [
+        {
+          "id": "SP001",
+          "name": "iPhone 15 Pro"
+        }
+      ],
+      "risk_level": "high"
+    },
+    {
+      "type": "single_supplier",
+      "component_id": "RF001",
+      "component_name": "RF Front End Module",
+      "supplier_id": "EC020",
+      "supplier_name": "Broadcom Inc.",
+      "affected_products": [
+        {
+          "id": "SP001",
+          "name": "iPhone 15 Pro"
+        }
+      ],
+      "risk_level": "high"
+    },
+    {
+      "type": "single_supplier",
+      "component_id": "SPK001",
+      "component_name": "Stereo Speaker System",
+      "supplier_id": "EC049",
+      "supplier_name": "Bose Corporation",
+      "affected_products": [
+        {
+          "id": "SP001",
+          "name": "iPhone 15 Pro"
+        }
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "geographical_analysis": {
+    "high_risk_countries": [
+      {
+        "country": "USA",
+        "total_components": 131,
+        "critical_components": 111,
+        "tariff_vulnerable_components": 0,
+        "concentration_score": 0.211,
+        "risk_level": "high"
+      },
+      {
+        "country": "China",
+        "total_components": 118,
+        "critical_components": 96,
+        "tariff_vulnerable_components": 53,
+        "concentration_score": 0.185,
+        "risk_level": "high"
+      },
+      {
+        "country": "South Korea",
+        "total_components": 93,
+        "critical_components": 79,
+        "tariff_vulnerable_components": 34,
+        "concentration_score": 0.15,
+        "risk_level": "high"
+      },
+      {
+        "country": "Taiwan",
+        "total_components": 47,
+        "critical_components": 43,
+        "tariff_vulnerable_components": 47,
+        "concentration_score": 0.079,
+        "risk_level": "high"
+      },
+      {
+        "country": "Japan",
+        "total_components": 43,
+        "critical_components": 28,
+        "tariff_vulnerable_components": 43,
+        "concentration_score": 0.06,
+        "risk_level": "high"
+      },
+      {
+        "country": "Switzerland",
+        "total_components": 24,
+        "critical_components": 16,
+        "tariff_vulnerable_components": 24,
+        "concentration_score": 0.034,
+        "risk_level": "high"
+      }
+    ],
+    "highest_concentration": {
+      "country": "USA",
+      "total_components": 131,
+      "critical_components": 111,
+      "tariff_vulnerable_components": 0,
+      "concentration_score": 0.211,
+      "risk_level": "high"
+    }
+  },
+  "strategic_recommendations": [
+    {
+      "category": "resilience",
+      "recommendation": "Improve overall supply chain resilience by focusing on alternative sources",
+      "priority": "high"
+    },
+    {
+      "category": "diversification",
+      "recommendation": "Diversify suppliers for 66 components that currently have single suppliers",
+      "priority": "high"
+    },
+    {
+      "category": "geographical",
+      "recommendation": "Reduce dependency on components from USA by finding alternative sources",
+      "priority": "high"
+    },
+    {
+      "category": "tariff",
+      "recommendation": "Develop mitigation strategies for tariff-vulnerable components, particularly those used in multiple products",
+      "priority": "medium"
+    },
+    {
+      "category": "monitoring",
+      "recommendation": "Implement real-time monitoring system for supply chain disruptions and geopolitical risks",
+      "priority": "medium"
+    }
+  ],
+  "generated_timestamp": "2025-04-06 14:01:06"
+}

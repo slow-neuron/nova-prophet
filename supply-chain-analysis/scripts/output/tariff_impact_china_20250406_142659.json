@@ -1,0 +1,1323 @@
+{
+  "scenario_type": "tariff_change",
+  "country": "China",
+  "increase_percentage": 35.0,
+  "affected_components": [
+    {
+      "component_id": "CAS001",
+      "component_name": "Titanium Frame",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "GLS001",
+      "component_name": "Ceramic Shield Front",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "GLS002",
+      "component_name": "Gorilla Glass Victus 2",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS003",
+      "component_name": "Aluminum Frame",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "GLS003",
+      "component_name": "Gorilla Glass Victus",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP004",
+      "component_name": "AMOLED Display",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT004",
+      "component_name": "Lithium-Ion Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS004",
+      "component_name": "Aluminum Frame",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "GLS004",
+      "component_name": "Gorilla Glass Victus",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SPK004",
+      "component_name": "Stereo Speaker System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "MIC004",
+      "component_name": "Microphone Array",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "VIB004",
+      "component_name": "Vibration Motor",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP005",
+      "component_name": "AMOLED Display",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT005",
+      "component_name": "Lithium-Ion Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS005",
+      "component_name": "Aluminum Frame",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "GLS005",
+      "component_name": "Gorilla Glass Victus",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SPK005",
+      "component_name": "Stereo Speaker System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "MIC005",
+      "component_name": "Microphone Array",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "VIB005",
+      "component_name": "Vibration Motor",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT201",
+      "component_name": "Lithium-Polymer Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS201",
+      "component_name": "Aluminum Chassis",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS203",
+      "component_name": "Aluminum Chassis",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "KICK203",
+      "component_name": "Kickstand Mechanism",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP204",
+      "component_name": "AMOLED Display",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT204",
+      "component_name": "Lithium-Polymer Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS204",
+      "component_name": "Aluminum Alloy Body",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SPK204",
+      "component_name": "JBL Quad Speakers",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "PEN204",
+      "component_name": "Precision Pen 3",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP205",
+      "component_name": "LCD Display",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT205",
+      "component_name": "Lithium-Ion Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS205",
+      "component_name": "Metal Unibody",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAM205",
+      "component_name": "13MP Camera",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SPK205",
+      "component_name": "Quad Speakers",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "TOUCH205",
+      "component_name": "Touch Controller",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT101",
+      "component_name": "Lithium-Polymer Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS101",
+      "component_name": "Aluminum Unibody",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "KBD101",
+      "component_name": "Magic Keyboard",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "TPAD101",
+      "component_name": "Force Touch Trackpad",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL101",
+      "component_name": "Thermal System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS102",
+      "component_name": "CNC Aluminum Chassis",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "KBD102",
+      "component_name": "Backlit Keyboard",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SPK102",
+      "component_name": "Quad-Speaker System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL102",
+      "component_name": "Dual Fan Cooling System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT103",
+      "component_name": "Lithium-Polymer Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS103",
+      "component_name": "Carbon Fiber Chassis",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "KBD103",
+      "component_name": "ThinkPad Keyboard",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAM103",
+      "component_name": "FHD+IR Camera",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SPK103",
+      "component_name": "Dolby Audio Speakers",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL103",
+      "component_name": "Dual Fan Cooling",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT104",
+      "component_name": "Lithium-Ion Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS104",
+      "component_name": "CNC Aluminum Chassis",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "KBD104",
+      "component_name": "Edge-to-Edge Keyboard",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL104",
+      "component_name": "Vapor Chamber Cooling",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "HINGE104",
+      "component_name": "360-degree Hinges",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS106",
+      "component_name": "Aluminum Chassis",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "KBD106",
+      "component_name": "Microsoft Keyboard",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL106",
+      "component_name": "Cooling System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP107",
+      "component_name": "WQXGA IPS Display",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS108",
+      "component_name": "CNC Aluminum Unibody",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "KBD108",
+      "component_name": "RGB Per-Key Keyboard",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SPK108",
+      "component_name": "THX Spatial Audio",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL108",
+      "component_name": "Vapor Chamber Cooling",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT301",
+      "component_name": "Lithium-Ion Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS301",
+      "component_name": "Aluminum/Stainless Case",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP303",
+      "component_name": "AMOLED Display",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS303",
+      "component_name": "Aluminum Case",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP305",
+      "component_name": "AMOLED Display",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "MEM305",
+      "component_name": "Flash Memory",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT305",
+      "component_name": "Lithium-Polymer Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS305",
+      "component_name": "TPU Case & Band",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SENS314",
+      "component_name": "Heart Rate Sensor",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SENS315",
+      "component_name": "SpO2 Sensor",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "TOUCH305",
+      "component_name": "Touch Controller",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "VIB305",
+      "component_name": "Vibration Motor",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CONN305",
+      "component_name": "Charging Connectors",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT306",
+      "component_name": "Lithium-Ion Battery (Earbuds)",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT307",
+      "component_name": "Lithium-Ion Battery (Case)",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS306",
+      "component_name": "Earbud Housing",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS307",
+      "component_name": "Charging Case",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CONN306",
+      "component_name": "USB-C Port",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS501",
+      "component_name": "Console Housing",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL501",
+      "component_name": "Cooling System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BOARD501",
+      "component_name": "Main Circuit Board",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS502",
+      "component_name": "Console Housing",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL502",
+      "component_name": "Vapor Chamber Cooling",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CON502",
+      "component_name": "Xbox Controller",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BOARD502",
+      "component_name": "Main Circuit Board",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS503",
+      "component_name": "Console Housing",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL503",
+      "component_name": "Cooling System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BOARD503",
+      "component_name": "Main Circuit Board",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP504",
+      "component_name": "LCD Display",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS504",
+      "component_name": "Console Housing",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL504",
+      "component_name": "Fan Cooling System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CON504",
+      "component_name": "Integrated Controllers",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BOARD504",
+      "component_name": "Main Circuit Board",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "TOUCH504",
+      "component_name": "Touch Panel",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP505",
+      "component_name": "LCD Display Panels",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS505",
+      "component_name": "Headset Housing",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL505",
+      "component_name": "Cooling System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "BAT505",
+      "component_name": "Lithium-Ion Battery",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CON505",
+      "component_name": "Touch Controllers",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS403",
+      "component_name": "Chassis",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "COOL403",
+      "component_name": "Cooling System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP404",
+      "component_name": "Mini-LED Panel",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "LED404",
+      "component_name": "Mini-LED Array",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "QDRV404",
+      "component_name": "Quantum Dot Layer",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SPK404",
+      "component_name": "Speaker System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "PWR404",
+      "component_name": "Power Supply",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS404",
+      "component_name": "Chassis",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "RMT404",
+      "component_name": "Remote Control",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "PROC405",
+      "component_name": "Hi-View Engine",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "DISP405",
+      "component_name": "Mini-LED Panel",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "LED405",
+      "component_name": "Mini-LED Array",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "QDRV405",
+      "component_name": "Quantum Dot Film",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "SPK405",
+      "component_name": "Speaker System",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "PWR405",
+      "component_name": "Power Supply",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "CAS405",
+      "component_name": "Chassis",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    },
+    {
+      "component_id": "RMT405",
+      "component_name": "Remote Control",
+      "tariff_increase": 35.0,
+      "component_type": "unknown",
+      "estimated_price_increase": 14.0
+    }
+  ],
+  "affected_products_count": 28,
+  "affected_products": [
+    {
+      "product_id": "WR005",
+      "product_name": "Xiaomi Mi Band 7",
+      "manufacturer": "Xiaomi Corporation",
+      "manufacturer_id": "EC015",
+      "affected_components_count": 9,
+      "critical_components_count": 6,
+      "impact_score": 15,
+      "affected_components": [
+        {
+          "component_id": "DISP305",
+          "component_name": "AMOLED Display",
+          "critical": true
+        },
+        {
+          "component_id": "MEM305",
+          "component_name": "Flash Memory",
+          "critical": true
+        },
+        {
+          "component_id": "BAT305",
+          "component_name": "Lithium-Polymer Battery",
+          "critical": true
+        },
+        {
+          "component_id": "CAS305",
+          "component_name": "TPU Case & Band",
+          "critical": true
+        },
+        {
+          "component_id": "SENS314",
+          "component_name": "Heart Rate Sensor",
+          "critical": true
+        },
+        {
+          "component_id": "SENS315",
+          "component_name": "SpO2 Sensor",
+          "critical": false
+        },
+        {
+          "component_id": "TOUCH305",
+          "component_name": "Touch Controller",
+          "critical": true
+        },
+        {
+          "component_id": "VIB305",
+          "component_name": "Vibration Motor",
+          "critical": false
+        },
+        {
+          "component_id": "CONN305",
+          "component_name": "Charging Connectors",
+          "critical": false
+        }
+      ],
+      "estimated_price_increase_percentage": 35.0
+    },
+    {
+      "product_id": "TV005",
+      "product_name": "Hisense U8H Mini-LED",
+      "manufacturer": null,
+      "manufacturer_id": null,
+      "affected_components_count": 8,
+      "critical_components_count": 6,
+      "impact_score": 14,
+      "affected_components": [
+        {
+          "component_id": "PROC405",
+          "component_name": "Hi-View Engine",
+          "critical": true
+        },
+        {
+          "component_id": "DISP405",
+          "component_name": "Mini-LED Panel",
+          "critical": true
+        },
+        {
+          "component_id": "LED405",
+          "component_name": "Mini-LED Array",
+          "critical": true
+        },
+        {
+          "component_id": "QDRV405",
+          "component_name": "Quantum Dot Film",
+          "critical": true
+        },
+        {
+          "component_id": "SPK405",
+          "component_name": "Speaker System",
+          "critical": false
+        },
+        {
+          "component_id": "PWR405",
+          "component_name": "Power Supply",
+          "critical": true
+        },
+        {
+          "component_id": "CAS405",
+          "component_name": "Chassis",
+          "critical": true
+        },
+        {
+          "component_id": "RMT405",
+          "component_name": "Remote Control",
+          "critical": false
+        }
+      ],
+      "estimated_price_increase_percentage": 35.0
+    },
+    {
+      "product_id": "GC004",
+      "product_name": "Valve Steam Deck",
+      "manufacturer": null,
+      "manufacturer_id": null,
+      "affected_components_count": 6,
+      "critical_components_count": 6,
+      "impact_score": 12,
+      "affected_components": [
+        {
+          "component_id": "DISP504",
+          "component_name": "LCD Display",
+          "critical": true
+        },
+        {
+          "component_id": "CAS504",
+          "component_name": "Console Housing",
+          "critical": true
+        },
+        {
+          "component_id": "COOL504",
+          "component_name": "Fan Cooling System",
+          "critical": true
+        },
+        {
+          "component_id": "CON504",
+          "component_name": "Integrated Controllers",
+          "critical": true
+        },
+        {
+          "component_id": "BOARD504",
+          "component_name": "Main Circuit Board",
+          "critical": true
+        },
+        {
+          "component_id": "TOUCH504",
+          "component_name": "Touch Panel",
+          "critical": true
+        }
+      ],
+      "estimated_price_increase_percentage": 35.0
+    },
+    {
+      "product_id": "TV004",
+      "product_name": "TCL 6-Series Mini-LED",
+      "manufacturer": "TCL Technology",
+      "manufacturer_id": "EC034",
+      "affected_components_count": 7,
+      "critical_components_count": 5,
+      "impact_score": 12,
+      "affected_components": [
+        {
+          "component_id": "DISP404",
+          "component_name": "Mini-LED Panel",
+          "critical": true
+        },
+        {
+          "component_id": "LED404",
+          "component_name": "Mini-LED Array",
+          "critical": true
+        },
+        {
+          "component_id": "QDRV404",
+          "component_name": "Quantum Dot Layer",
+          "critical": true
+        },
+        {
+          "component_id": "SPK404",
+          "component_name": "Speaker System",
+          "critical": false
+        },
+        {
+          "component_id": "PWR404",
+          "component_name": "Power Supply",
+          "critical": true
+        },
+        {
+          "component_id": "CAS404",
+          "component_name": "Chassis",
+          "critical": true
+        },
+        {
+          "component_id": "RMT404",
+          "component_name": "Remote Control",
+          "critical": false
+        }
+      ],
+      "estimated_price_increase_percentage": 35.0
+    },
+    {
+      "product_id": "SP004",
+      "product_name": "Xiaomi 13 Pro",
+      "manufacturer": "Xiaomi Corporation",
+      "manufacturer_id": "EC015",
+      "affected_components_count": 7,
+      "critical_components_count": 4,
+      "impact_score": 11,
+      "affected_components": [
+        {
+          "component_id": "DISP004",
+          "component_name": "AMOLED Display",
+          "critical": true
+        },
+        {
+          "component_id": "BAT004",
+          "component_name": "Lithium-Ion Battery",
+          "critical": true
+        },
+        {
+          "component_id": "CAS004",
+          "component_name": "Aluminum Frame",
+          "critical": true
+        },
+        {
+          "component_id": "GLS004",
+          "component_name": "Gorilla Glass Victus",
+          "critical": true
+        },
+        {
+          "component_id": "SPK004",
+          "component_name": "Stereo Speaker System",
+          "critical": false
+        },
+        {
+          "component_id": "MIC004",
+          "component_name": "Microphone Array",
+          "critical": false
+        },
+        {
+          "component_id": "VIB004",
+          "component_name": "Vibration Motor",
+          "critical": false
+        }
+      ],
+      "estimated_price_increase_percentage": 35.0
+    },
+    {
+      "product_id": "SP005",
+      "product_name": "OnePlus 11",
+      "manufacturer": "OPPO Electronics",
+      "manufacturer_id": "EC025",
+      "affected_components_count": 7,
+      "critical_components_count": 4,
+      "impact_score": 11,
+      "affected_components": [
+        {
+          "component_id": "DISP005",
+          "component_name": "AMOLED Display",
+          "critical": true
+        },
+        {
+          "component_id": "BAT005",
+          "component_name": "Lithium-Ion Battery",
+          "critical": true
+        },
+        {
+          "component_id": "CAS005",
+          "component_name": "Aluminum Frame",
+          "critical": true
+        },
+        {
+          "component_id": "GLS005",
+          "component_name": "Gorilla Glass Victus",
+          "critical": true
+        },
+        {
+          "component_id": "SPK005",
+          "component_name": "Stereo Speaker System",
+          "critical": false
+        },
+        {
+          "component_id": "MIC005",
+          "component_name": "Microphone Array",
+          "critical": false
+        },
+        {
+          "component_id": "VIB005",
+          "component_name": "Vibration Motor",
+          "critical": false
+        }
+      ],
+      "estimated_price_increase_percentage": 35.0
+    },
+    {
+      "product_id": "TB005",
+      "product_name": "Xiaomi Pad 6",
+      "manufacturer": "Xiaomi Corporation",
+      "manufacturer_id": "EC015",
+      "affected_components_count": 6,
+      "critical_components_count": 4,
+      "impact_score": 10,
+      "affected_components": [
+        {
+          "component_id": "DISP205",
+          "component_name": "LCD Display",
+          "critical": true
+        },
+        {
+          "component_id": "BAT205",
+          "component_name": "Lithium-Ion Battery",
+          "critical": true
+        },
+        {
+          "component_id": "CAS205",
+          "component_name": "Metal Unibody",
+          "critical": true
+        },
+        {
+          "component_id": "CAM205",
+          "component_name": "13MP Camera",
+          "critical": false
+        },
+        {
+          "component_id": "SPK205",
+          "component_name": "Quad Speakers",
+          "critical": false
+        },
+        {
+          "component_id": "TOUCH205",
+          "component_name": "Touch Controller",
+          "critical": true
+        }
+      ],
+      "estimated_price_increase_percentage": 33.6
+    },
+    {
+      "product_id": "LP001",
+      "product_name": "MacBook Pro 16-inch",
+      "manufacturer": "Apple Inc.",
+      "manufacturer_id": "EC001",
+      "affected_components_count": 5,
+      "critical_components_count": 5,
+      "impact_score": 10,
+      "affected_components": [
+        {
+          "component_id": "BAT101",
+          "component_name": "Lithium-Polymer Battery",
+          "critical": true
+        },
+        {
+          "component_id": "CAS101",
+          "component_name": "Aluminum Unibody",
+          "critical": true
+        },
+        {
+          "component_id": "KBD101",
+          "component_name": "Magic Keyboard",
+          "critical": true
+        },
+        {
+          "component_id": "TPAD101",
+          "component_name": "Force Touch Trackpad",
+          "critical": true
+        },
+        {
+          "component_id": "COOL101",
+          "component_name": "Thermal System",
+          "critical": true
+        }
+      ],
+      "estimated_price_increase_percentage": 35.0
+    },
+    {
+      "product_id": "LP003",
+      "product_name": "Lenovo ThinkPad X1 Carbon",
+      "manufacturer": "Lenovo Group",
+      "manufacturer_id": "EC013",
+      "affected_components_count": 6,
+      "critical_components_count": 4,
+      "impact_score": 10,
+      "affected_components": [
+        {
+          "component_id": "BAT103",
+          "component_name": "Lithium-Polymer Battery",
+          "critical": true
+        },
+        {
+          "component_id": "CAS103",
+          "component_name": "Carbon Fiber Chassis",
+          "critical": true
+        },
+        {
+          "component_id": "KBD103",
+          "component_name": "ThinkPad Keyboard",
+          "critical": true
+        },
+        {
+          "component_id": "CAM103",
+          "component_name": "FHD+IR Camera",
+          "critical": false
+        },
+        {
+          "component_id": "SPK103",
+          "component_name": "Dolby Audio Speakers",
+          "critical": false
+        },
+        {
+          "component_id": "COOL103",
+          "component_name": "Dual Fan Cooling",
+          "critical": true
+        }
+      ],
+      "estimated_price_increase_percentage": 33.6
+    },
+    {
+      "product_id": "LP004",
+      "product_name": "HP Spectre x360",
+      "manufacturer": "HP Inc.",
+      "manufacturer_id": "EC011",
+      "affected_components_count": 5,
+      "critical_components_count": 5,
+      "impact_score": 10,
+      "affected_components": [
+        {
+          "component_id": "BAT104",
+          "component_name": "Lithium-Ion Battery",
+          "critical": true
+        },
+        {
+          "component_id": "CAS104",
+          "component_name": "CNC Aluminum Chassis",
+          "critical": true
+        },
+        {
+          "component_id": "KBD104",
+          "component_name": "Edge-to-Edge Keyboard",
+          "critical": true
+        },
+        {
+          "component_id": "COOL104",
+          "component_name": "Vapor Chamber Cooling",
+          "critical": true
+        },
+        {
+          "component_id": "HINGE104",
+          "component_name": "360-degree Hinges",
+          "critical": true
+        }
+      ],
+      "estimated_price_increase_percentage": 35.0
+    }
+  ],
+  "resilience_impact": {
+    "before": 15.0,
+    "after": 12.8,
+    "change": -2.2
+  },
+  "price_impacts": {
+    "average_product_price_increase": 24.65,
+    "max_product_price_increase": 35.0,
+    "min_product_price_increase": 7.0
+  },
+  "recommendations": [
+    {
+      "action": "relocate_sourcing",
+      "description": "Consider sourcing Titanium Frame and similar components from countries not affected by the tariff",
+      "priority": "high",
+      "estimated_benefit": "Eliminate direct tariff impact on affected components",
+      "implementation_difficulty": "medium",
+      "timeframe": "medium_term"
+    },
+    {
+      "action": "strategic_pricing",
+      "description": "Adjust pricing strategy for 28 high-impact products to maintain market competitiveness",
+      "priority": "high",
+      "estimated_benefit": "Maintain market share while minimizing profit impact",
+      "implementation_difficulty": "low",
+      "timeframe": "immediate"
+    },
+    {
+      "action": "tariff_exemptions",
+      "description": "Pursue possible tariff exemptions or exclusions for critical components",
+      "priority": "medium",
+      "estimated_benefit": "Potential significant savings on affected components",
+      "implementation_difficulty": "high",
+      "timeframe": "medium_term"
+    }
+  ],
+  "generated_at": "2025-04-06 14:26:59"
+}
